@@ -68,9 +68,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>书单</title>
+      <link href="/books/index.html"/>
+      <url>/books/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -79,9 +79,9 @@
     
     
     <entry>
-      <title>书单</title>
-      <link href="/books/index.html"/>
-      <url>/books/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -112,17 +112,6 @@
     
     
     <entry>
-      <title>友情链接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>留言板</title>
       <link href="/contact/index.html"/>
       <url>/contact/index.html</url>
@@ -134,9 +123,9 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -145,20 +134,9 @@
     
     
     <entry>
-      <title>Music</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=2693598459&auto=0&height=430"></iframe>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>说说</title>
-      <link href="/talk/index.html"/>
-      <url>/talk/index.html</url>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -183,6 +161,28 @@
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>说说</title>
+      <link href="/talk/index.html"/>
+      <url>/talk/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Music</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=2693598459&auto=0&height=430"></iframe>]]></content>
       
     </entry>
     
