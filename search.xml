@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>第三篇文章</title>
+      <link href="/2022/12/16/2022-12-16-%E7%AC%AC%E4%B8%89%E7%AF%87/"/>
+      <url>/2022/12/16/2022-12-16-%E7%AC%AC%E4%B8%89%E7%AF%87/</url>
+      
+        <content type="html"><![CDATA[<h2 id="我非英雄，却也盖世无双。"><a href="#我非英雄，却也盖世无双。" class="headerlink" title="我非英雄，却也盖世无双。"></a>我非英雄，却也盖世无双。</h2><p><strong>朱润灿</strong>，<em>朱某人</em></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第二篇文章</title>
+      <link href="/2022/12/15/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2022/12/15/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<p>Hexo博客搭建基础教程(二)<br>发表于1 个月前|更新于1 个月前|魔改教程<br>字数总计:3.6k|阅读时长:12分钟|阅读量:4552<br>这部分教程有参考tzy大佬的文章：基于 Hexo 从零开始搭建个人博客（三）、基于 Hexo 从零开始搭建个人博客（四）<br>阅读本篇前，请先阅读前面的文章：Hexo 博客搭建基础教程 (一)<br>视频教程会同步至在我的B站账号Fomalhaut1998a</p><p>1.前言<br>博客搭建过程遇到任何问题，优先在本页面搜索，检查是否已经有该配置教程。<br>遇到问题可以优先在文章评论区留言，注意留言时请填写正确的邮箱以确保能收到站长的回复。<br>实在解决不了的问题可添加站长的微信进行交流，备注自己的个人信息。<br>2.Vercel部署与自定义域名<br>2.1 Vercel部署<br>Vercel简介：vercel是一个代码托管平台，它能够托管你的静态html界面，甚至能够托管你的node.js与Python服务端脚本，是不想买服务器的懒人的福音！</p><p>使用Vercel部署Hexo项目步骤：</p><p>首先需要一个Vercel账号，这里推荐用GitHub账户关联，这样你就可以在vercel中直接托管你的GitHub库中的项目了，实现开发部署一步到位（网络不流畅可以考虑挂梯子）。<br>image-20221027223132537<br>当你用你的Github账户关联并绑定手机号登录之后，点击右上角的Add New Project创建新的项目，之后导入选项那里选择Continue with Github，这时候应该能看到你Github账号的仓库，选择你刚刚部署成功的存储静态博客的仓库<username>.github.io右边的Import选项，表示你要导入该仓库。<br>image-20221027223231192<br>image-20221027223420282<br>image-20221027223742660<br>起一个只能有字母、数字或者或者连字符的项目名称，然后其他默认，点击Deploy，等待一分钟即可部署成功，部署成功后电极Continue to Dashboard跳转到控制面板，下图所示就是控制面板，看到就代表成功部署到了，但是我们现在还不能访问他给出的域，因为GFW最近把Vercel屏蔽了。<br>​image-20221027224225808</p><p>image-20221027224405464<br>2.2 绑定自定义域名<br>现在你的个人网站的地址是 username.github.io以及在Vercel上有一个blog-demo-chi.vercel.app。如果觉得不够定制化，可以购买一个专属域名。</p><p>这一步不是必要的，如果目前还不想买域名可以先跳过。</p><p>腾讯云、阿里云等都是不错的域名代理商，建议选用com，cn或cc这类常用好记的顶域，对SEO比较友好，自定义部分的长度尽可能短别人才会更容易地记住你的网站，要知道域名就是你网站的卡片。此处以阿里云域名为例进行说明，购买域名后，实名认证进入阿里云控制台，点云解析进去，找到你刚买的域名，点进去添加Vercel所需的解析记录，注意博主这里是解析二级域名只需要解析一条即可。但是如果是一级域名，需要解析两个，一个是@，另外一个是www，Vercel建议是@的解析重定向至www。</p><p>以我的域名：fomal.cc为例进行说明</p><p>主机记录    解释<br>www    解析后的域名为 <a href="http://www.fomal.cc/">www.fomal.cc</a><br>@    直接解析主域名 fomal.cc</p><ul><li>   泛解析，匹配其他所有域名 *.fomal.cc<br>mail    将域名解析为 mail.fomal.cc，通常用于解析邮箱服务器<br>二级    如 abc.fomal.cc，填写 abc<br>手机网站    如 m.fomal.cc，填写 m<br>显性URL    不支持泛解析（泛解析：将所有子域名解析到同一地址）<br>将域名指向云服务器，请选择「A」； 将域名指向另一个域名，请选择「CNAME」； 建立邮箱请选择「MX」，根据邮箱服务商提供的 MX 记录填写。</li></ul><p>记录类型    解释<br>A    用来指定域名的 IPv4 地址（如 8.8.8.8），如果需要将域名指向一个 IP 地址，就需要添加 A 记录。<br>CNAME    如果需要将域名指向另一个域名，再由另一个域名提供 IP 地址，就需要添加 CNAME 记录。<br>MX    如果需要设置邮箱，让邮箱能收到邮件，就需要添加 MX 记录。<br>TXT    在这里可以填写任何东西，长度限制 255。绝大多数的 TXT 记录是用来做 SPF 记录（反垃圾邮件）<br>NS    域名服务器记录，如果需要将子域名交给其他 DNS 服务商解析，就需要添加 NS 记录。<br>AAAA    用来指定主机名（或域名）对应的 IPv6 地址（例如：ff06:0:0:0:0:0:0:c3）记录。<br>SRV    记录了哪台计算机提供了哪个服务。格式为：服务的名字、点、协议的类型，例如：_xmpp-server_tcp。<br>显性URL    从一个地址 301 重定向到另一个地址的时候，就需要添加显性 URL 记录（注：DNSPod 目前只支持 301 重定向）。<br>隐性URL    类似于显性 URL，区别在于隐性 URL 不会改变地址栏的域名。<br>添加自定义域名的步骤：</p><p>点击Vercel控制面板右上角的View Domains查看当前的域，我们可以看到仅有Vercel给你预分配的一个域名，此时我们输入刚刚购买的域名，我这里以二级域名demo.fomal.cc为例进行说明，添加后他会提示你添加一条DNS解析记录。<br>image-20221027224803563<br>image-20221027224830609<br>image-20221027225338126<br>PS：如果你是新买的域名，直接输入你新买的一级域名即可，例如demo123.com，他会推荐你将demo123.com重定向至<a href="http://www.demo123.com%EF%BC%8C%E7%82%B9ADD%E5%8D%B3%E5%8F%AF%EF%BC%8C%E7%84%B6%E5%90%8E%E4%BB%96%E4%BC%9A%E6%8F%90%E7%A4%BA%E4%BD%A0%E6%B7%BB%E5%8A%A0%E4%B8%A4%E6%9D%A1%E8%A7%A3%E6%9E%90%E8%AE%B0%E5%BD%95%EF%BC%8C%E4%B8%80%E4%B8%AA%E6%98%AF@开头的和cname开头的,添加记录的方法和二级域名一致./">www.demo123.com，点ADD即可，然后他会提示你添加两条解析记录，一个是@开头的和CNAME开头的，添加记录的方法和二级域名一致。</a><br>image-20221027225758503<br>image-20221027225808449<br>在阿里云域名解析记录里面添加如下记录，其中记录类型对应Type，主机记录对应Name，记录值对应Value，其他的设置默认即可。<br>image-20221027230049667<br>回到Vercel刚刚查看域名的地方，如果操作没问题，应该会显示域名配置成功的提示，此时就可以通过自定义域名来访问我们搭建的网站了。<br>image-20221027230357362<br>image-20221027230421929<br>当你有了新的域名之后，需要[BlogRoot]_config.yml文件中的url配置项为自己的新域名，这样博客的文章链接才会正确生成。<br>image-20221028113042788<br>3.安装主题<br>本教程用的 🦋 hexo-theme-butterfly 主题 v4.5.0最新版，请放心食用。</p><p>本教程用的是npm方式安装的 hexo-theme-butterfly，后续魔改时更改的文件都是【C:/Hexo-Blog/blog-demo/node_modules/hexo-theme-butterfly】文件夹中的文件。如果你是git clone克隆方式安装的主题，请在【C:/Hexo-Blog/blog-demo/themes/butterfly】文件夹下修改对应的文件。</p><p>npm安装(推荐)<br>Github安装<br>Gitee安装<br>注意：此方法只支持 Hexo 5.0.0以上版本!</p><p>在你的博客根目录（我这里路径为【C:/Hexo-Blog/blog-demo】）打开Git BASH命令窗口执行npm i hexo-theme-butterfly</p><p>npm i hexo-theme-butterfly<br>安装成功后可在【C:/Hexo-Blog/blog-demo/node_modules】文件夹下找到hexo-theme-butterfly文件夹</p><p>升级方法：在博客根目录下，运行 npm update hexo-theme-butterfly。<br>升级前请将hexo-theme-butterfly文件夹备份，npm更新会直接覆盖成新的包。</p><p>4.应用主题<br>修改站点配置文件_config.yml，把主题改为butterfly<br>theme: butterfly<br>如果你没有pug以及stylus的渲染器，请下载安装，这两个渲染器是Butterfly生成基础页面所需的依赖包：<br>npm install hexo-renderer-pug hexo-renderer-stylus –save<br>为了减少升级主题后带来的不便，请使用以下方法（建议，可以不做，高度魔改的一般都不会升级主题了，不然魔改的会被覆盖掉）<br>把主题文件夹中的 _config.yml 复制到 Hexo 根目录里（我这里路径为【C:/Hexo-Blog/blog-demo】），同时重新命名为 _config.butterfly.yml。以后只需要在 _config.butterfly.yml进行配置即可生效。Hexo会自动合併主题中的_config.yml和 _config.butterfly.yml里的配置，如果存在同名配置，会使用_config.butterfly.yml的配置，其优先度较高。<br>5. 基础用法说明<br>5.1 Front-matter<br>Front-matter 是 markdown 文件最上方以—分隔的区域，用于指定个别档案的变数。</p><p>Page Front-matter 用于页面配置<br>Post Front-matter 用于文章页配置<br>如果标注可选的参数，可根据自己需要添加，不用全部都写</p><p>Page Front-matter：</p><hr><p>title:<br>date:<br>updated:<br>type:<br>comments:<br>description:<br>keywords:<br>top_img:<br>mathjax:<br>katex:<br>aside:<br>aplayer:<br>highlight_shrink:</p><hr><p>写法    解释<br>title    【必需】页面标题<br>date    【必需】页面创建日期<br>type    【必需】标籤、分类和友情链接三个页面需要配置<br>updated    【可选】页面更新日期<br>description    【可选】页面描述<br>keywords    【可选】页面关键字<br>comments    【可选】显示页面评论模块(默认 true)<br>top_img    【可选】页面顶部图片<br>mathjax    【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)<br>kates    【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)<br>aside    【可选】显示侧边栏 (默认 true)<br>aplayer    【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置<br>highlight_shrink    【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)<br>Post Front-matter：</p><hr><p>title:<br>date:<br>updated:<br>tags:<br>categories:<br>keywords:<br>description:<br>top_img:<br>comments:<br>cover:<br>toc:<br>toc_number:<br>toc_style_simple:<br>copyright:<br>copyright_author:<br>copyright_author_href:<br>copyright_url:<br>copyright_info:<br>mathjax:<br>katex:<br>aplayer:<br>highlight_shrink:<br>aside:</p><hr><p>写法    解释<br>title    【必需】文章标题<br>date    【必需】文章创建日期<br>updated    【可选】文章更新日期<br>tags    【可选】文章标籤<br>categories    【可选】文章分类<br>keywords    【可选】文章关键字<br>description    【可选】文章描述<br>top_img    【可选】文章顶部图片<br>cover    【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false/图片地址/留空)<br>comments    【可选】显示文章评论模块(默认 true)<br>toc    【可选】显示文章TOC(默认为设置中toc的enable配置)<br>toc_number    【可选】显示toc_number(默认为设置中toc的number配置)<br>toc_style_simple    【可选】显示 toc 简洁模式<br>copyright    【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)<br>copyright_author    【可选】文章版权模块的文章作者<br>copyright_author_href    【可选】文章版权模块的文章作者链接<br>copyright_url    【可选】文章版权模块的文章连结链接<br>copyright_info    【可选】文章版权模块的版权声明文字<br>mathjax    【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)<br>katex    【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)<br>aplayer    【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置<br>highlight_shrink    【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)<br>aside    【可选】显示侧边栏 (默认 true)<br>注意：我的博客根目录路径为 【C:/Hexo-Blog/blog-demo】，下文所说的根目录都是此路径，将用[BlogRoot]代替。</p><p>5.2 标签页<br>前往你的Hexo博客根目录，打开Git Bash执行如下命令：</p><p>hexo new page tags<br>在[BlogRoot]\source\会生成一个含有index.md文件的tags文件夹。</p><p>修改[BlogRoot]\source\tags\index.md，添加type: “tags”。</p><hr><p>title: tags<br>date: 2022-10-28 12:00:00<br>type: “tags”</p><hr><p>5.3 友情链接<br>前往你的Hexo博客根目录，打开cmd命令窗口执行如下命令：</p><p>hexo new page link<br>在[BlogRoot]\source\会生成一个含有index.md文件的link文件夹</p><p>修改[BlogRoot]\source\link\index.md，添加type: “link”</p><hr><p>title: link<br>date: 2022-10-28 12:00:00<br>type: “link”</p><hr><p>前往[BlogRoot]\source_data创建一个link.yml文件（如果沒有 _data 文件夹，请自行创建），并写入如下信息（根据你的需要写）：</p><ul><li>class_name: 1.技术支持<br>class_desc: 本网站的搭建由以下开源作者提供技术支持<br>link_list: <ul><li>name: Hexo<br>link: <a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a><br>avatar: <a href="https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg">https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg</a><br>descr: 快速、简单且强大的网志框架<br>siteshot: <a href="https://source.fomal.cc/siteshot/hexo.io.jpg">https://source.fomal.cc/siteshot/hexo.io.jpg</a></li></ul></li><li>class_name: 2.友情链接<br>class_desc: 一些好朋友~~<br>link_list:<ul><li>name: Fomalhaut🥝<br>link: <a href="https://fomal.cc/">https://fomal.cc/</a><br>avatar: /assets/head.jpg<br>descr: Future is now 🍭🍭🍭<br>siteshot: <a href="https://source.fomal.cc/siteshot/www.fomal.cn.jpg">https://source.fomal.cc/siteshot/www.fomal.cn.jpg</a><br>class_name和class_desc支持 html 格式，如不需要，也可以留空。</li></ul></li></ul><p>5.4 图库<br>图库页面只是普通的页面，你只需要hexo new page xxx创建你的页面就行。</p><p>然后使用外挂标签 galleryGroup，具体用法请查看对应的内容。</p><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://source.fomal.cc/img/default_cover_61.webp' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">封面专区</div>  <p>本站用作文章封面的图片，不保证分辨率</p>  <a href='/box/Gallery/photo'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://source.fomal.cc/img/dm11.webp' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">背景专区</div>  <p>收藏的一些的背景与壁纸，分辨率很高</p>  <a href='/box/Gallery/wallpaper'></a>  </figcaption>  </figure>  </div>5.5 子页面子页面也是普通的页面，你只需要hexo new page xxx创建你的页面就行。<p>然后使用标签外挂 gallery，具体用法请查看对应的内容。</p><div class="fj-gallery"><p><img src="https://source.fomal.cc/img/default_cover_1.webp" alt="p1"><br><img src="https://source.fomal.cc/img/default_cover_2.webp" alt="p2"><br><img src="https://source.fomal.cc/img/default_cover_3.webp" alt="p3"><br><img src="https://source.fomal.cc/img/default_cover_4.webp" alt="p4"><br><img src="https://source.fomal.cc/img/default_cover_5.webp" alt="p5"><br><img src="https://source.fomal.cc/img/default_cover_6.webp" alt="p6"><br><img src="https://source.fomal.cc/img/default_cover_7.webp" alt="p7"><br><img src="https://source.fomal.cc/img/default_cover_8.webp" alt="p8"><br><img src="https://source.fomal.cc/img/default_cover_9.webp" alt="p9"><br><img src="https://source.fomal.cc/img/default_cover_10.webp" alt="p10"><br><img src="https://source.fomal.cc/img/default_cover_11.webp" alt="p11"><br><img src="https://source.fomal.cc/img/default_cover_12.webp" alt="p12"> </p>          </div><p>5.6 404页面<br>主題內置了一个简单的404页面，可在设置中开放。</p><p>如需本地预览，请访问 <a href="http://localhost:4000/404.html">http://localhost:4000/404.html</a></p><h1 id="A-simple-404-page"><a href="#A-simple-404-page" class="headerlink" title="A simple 404 page"></a>A simple 404 page</h1><p>error_404:<br>  enable: true<br>  subtitle: “页面沒有找到”<br>  background:<br>Hexo博客搭建基础教程(二)<br><a href="https://www.fomal.cc/posts/4aa2d85f.html">https://www.fomal.cc/posts/4aa2d85f.html</a><br>作者<br>Fomalhaut🥝<br>发布于<br>2022-10-27<br>更新于<br>2022-10-27<br>许可协议<br>CC BY-NC-SA 4.0<br>Hexo<br>cover of previous post<br>上一篇<br>Hexo博客搭建基础教程(三)<br>cover of next post<br>下一篇<br>Hexo博客搭建基础教程(一)<br>相关推荐<br>cover<br> 2022-10-27<br>Hexo博客搭建基础教程(一)<br>cover<br> 2022-12-03<br>免费图床综合教程<br>cover<br> 2022-10-23<br>网站性能优化的一些小技巧<br>cover<br> 2022-10-28<br>Hexo博客搭建基础教程(三)<br>cover<br> 2022-11-14<br>博客魔改教程总结(一)<br>cover<br> 2022-11-26<br>博客魔改教程总结(二)<br> 评论<br>目录52<br>1.前言<br>2.Vercel部署与自定义域名<br>3.安装主题<br>4.应用主题<br>5. 基础用法说明<br>5.1 Front-matter<br>5.2 标签页<br>5.3 友情链接<br>5.4 图库<br>5.5 子页面<br>5.6 404页面<br>©2022  By Fomalhaut🥝<br>什么时候能够实现财富自由呀~<br>本站居然运行了 128 天 17 小时 21 分 53 秒<br>旅行者 1 号当前距离地球 23600819519 千米，约为 157.759489 个天文单位 🚀<br>再看看那个光点，它就在这里，这是家园，这是我们 —— 你所爱的每一个人，你认识的一个人，你听说过的每一个人，曾经有过的每一个人，都在它上面度过他们的一生✨</p><p>47%</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第一篇文章</title>
+      <link href="/2022/12/15/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2022/12/15/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2><blockquote><p>微信公众号排版工具。问题或建议，请公众号留言。**<a href="#jump_8">程序员翻身</a>**</p></blockquote><p>建议使用 <strong>Chrome</strong> 浏览器，体验最佳效果。</p><p>使用微信公众号编辑器有一个十分头疼的问题：粘贴出来的代码，格式错乱，空间小还带行号，而且特别丑。Markdown.com.cn编辑器能够解决这个问题。</p><p>Markdown是一种轻量级的「标记语言」。</p><p>请阅读下方文本熟悉工具使用方法，本文可直接拷贝到微信中预览。</p><h2 id="1-Markdown-com-cn-简介"><a href="#1-Markdown-com-cn-简介" class="headerlink" title="1 Markdown.com.cn 简介"></a>1 Markdown.com.cn 简介</h2><ul><li>支持自定义样式的 Markdown 编辑器</li><li>支持微信公众号、知乎和稀土掘金</li><li>点击右上方对应图标，一键复制到各平台</li></ul><h2 id="2-Markdown语法教程"><a href="#2-Markdown语法教程" class="headerlink" title="2 Markdown语法教程"></a>2 Markdown语法教程</h2><h3 id="2-1-标题"><a href="#2-1-标题" class="headerlink" title="2.1 标题"></a>2.1 标题</h3><p>不同数量的<code>#</code>可以完成不同的标题，如下：</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h3 id="2-2-字体"><a href="#2-2-字体" class="headerlink" title="2.2 字体"></a>2.2 字体</h3><p>粗体、斜体、粗体和斜体，删除线，需要在文字前后加不同的标记符号。如下：</p><p><strong>这个是粗体</strong></p><p><em>这个是斜体</em></p><p><em><strong>这个是粗体加斜体</strong></em></p><p>~这里想用删除线~~</p><p>注：如果想给字体换颜色、字体或者居中显示，需要使用内嵌HTML来实现。</p><h3 id="2-3-无序列表"><a href="#2-3-无序列表" class="headerlink" title="2.3 无序列表"></a>2.3 无序列表</h3><p>无序列表的使用，在符号<code>-</code>后加空格使用。如下：</p><ul><li>无序列表 1</li><li>无序列表 2</li><li>无序列表 3</li></ul><p>如果要控制列表的层级，则需要在符号<code>-</code>前使用空格。如下：</p><ul><li>无序列表 1</li><li>无序列表 2<ul><li>无序列表 2.1</li><li>无序列表 2.2</li></ul></li></ul><p><strong>由于微信原因，最多支持到二级列表</strong>。</p><h3 id="2-4-有序列表"><a href="#2-4-有序列表" class="headerlink" title="2.4 有序列表"></a>2.4 有序列表</h3><p>有序列表的使用，在数字及符号<code>.</code>后加空格后输入内容，如下：</p><ol><li>有序列表 1</li><li>有序列表 2</li><li>有序列表 3</li></ol><h3 id="2-5-引用"><a href="#2-5-引用" class="headerlink" title="2.5 引用"></a>2.5 引用</h3><p>引用的格式是在符号<code>&gt;</code>后面书写文字。如下：</p><blockquote><p>读一本好书，就是在和高尚的人谈话。 ——歌德</p></blockquote><blockquote><p>雇用制度对工人不利，但工人根本无力摆脱这个制度。 ——阮一峰</p></blockquote><h3 id="2-7-链接"><a href="#2-7-链接" class="headerlink" title="2.7 链接"></a>2.7 链接</h3><p>微信公众号仅支持公众号文章链接，即域名为<code>https://mp.weixin.qq.com/</code>的合法链接。使用方法如下所示：</p><p>对于该论述，欢迎读者查阅之前发过的文章，<a href="https://mp.weixin.qq.com/s/s5IhxV2ooX3JN_X416nidA">你是《未来世界的幸存者》么？</a><br><a id="jump_8"></a></p><h3 id="2-8-图片"><a href="#2-8-图片" class="headerlink" title="2.8 图片"></a>2.8 图片</h3><p>插入图片，格式如下：</p><p><img src="https://www.nginx.cn/wp-content/uploads/2020/03/qrcode_for_gh_82cf87d482f0_258.jpg" alt="这里写图片描述"></p><p>支持 jpg、png、gif、svg 等图片格式，<strong>其中 svg 文件仅可在微信公众平台中使用</strong>，svg 文件示例如下：</p><p><img src="https://markdown.com.cn/images/i-am-svg.svg"></p><p>支持图片<strong>拖拽和截图粘贴</strong>到编辑器中。</p><p>注：支持图片 <em><strong>拖拽和截图粘贴</strong></em> 到编辑器中，仅支持 https 的图片，图片粘贴到微信时会自动上传微信服务器。</p><h3 id="2-9-分割线"><a href="#2-9-分割线" class="headerlink" title="2.9 分割线"></a>2.9 分割线</h3><p>可以在一行中用三个以上的减号来建立一个分隔线，同时需要在分隔线的上面空一行。如下：</p><hr><h3 id="2-10-表格"><a href="#2-10-表格" class="headerlink" title="2.10 表格"></a>2.10 表格</h3><p>可以使用冒号来定义表格的对齐方式，如下：</p><table><thead><tr><th align="left">姓名</th><th align="center">年龄</th><th align="right">工作</th></tr></thead><tbody><tr><td align="left">小可爱</td><td align="center">18</td><td align="right">吃可爱多</td></tr><tr><td align="left">小小勇敢</td><td align="center">20</td><td align="right">爬棵勇敢树</td></tr><tr><td align="left">小小小机智</td><td align="center">22</td><td align="right">看一本机智书</td></tr></tbody></table><h2 id="3-特殊语法"><a href="#3-特殊语法" class="headerlink" title="3. 特殊语法"></a>3. 特殊语法</h2><h3 id="3-1-脚注"><a href="#3-1-脚注" class="headerlink" title="3.1 脚注"></a>3.1 脚注</h3><blockquote><p>支持平台：微信公众号、知乎。</p></blockquote><p>脚注与链接的区别如下所示：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">链接：[<span class="string">文字</span>](<span class="link">链接</span>)</span><br><span class="line">脚注：[<span class="string">文字</span>](<span class="link">脚注解释 &quot;脚注名字&quot;</span>)</span><br></pre></td></tr></table></figure><p>有人认为在<a href="https://en.wikipedia.org/wiki/Front-end_web_development" title="Front-end web development">大前端时代</a>的背景下，移动端开发（Android、IOS）将逐步退出历史舞台。</p><p><a href="%E6%98%AF%E6%8C%87%E6%8E%8C%E6%8F%A1%E5%A4%9A%E7%A7%8D%E6%8A%80%E8%83%BD%EF%BC%8C%E5%B9%B6%E8%83%BD%E5%88%A9%E7%94%A8%E5%A4%9A%E7%A7%8D%E6%8A%80%E8%83%BD%E7%8B%AC%E7%AB%8B%E5%AE%8C%E6%88%90%E4%BA%A7%E5%93%81%E7%9A%84%E4%BA%BA%E3%80%82" title="什么是全栈工程师">全栈工程师</a>在业务开发流程中起到了至关重要的作用。</p><p>脚注内容请拉到最下面观看。</p><h3 id="3-2-代码块"><a href="#3-2-代码块" class="headerlink" title="3.2 代码块"></a>3.2 代码块</h3><blockquote><p>支持平台：微信代码主题仅支持微信公众号！其他主题无限制。</p></blockquote><p>如果在一个行内需要引用代码，只要用反引号引起来就好，如下：</p><p>Use the <code>printf()</code> function.</p><p>在需要高亮的代码块的前一行及后一行使用三个反引号，同时<strong>第一行反引号后面表示代码块所使用的语言</strong>，如下：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// FileName: HelloWorld.java</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloWorld</span> &#123;</span><br><span class="line">  <span class="comment">// Java 入口程序，程序从此入口</span></span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    System.out.println(<span class="string">&quot;Hello,World!&quot;</span>); <span class="comment">// 向控制台打印一条语句</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>支持以下语言种类：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">bash</span><br><span class="line">clojure，cpp，cs，css</span><br><span class="line">dart，dockerfile, diff</span><br><span class="line">erlang</span><br><span class="line">go，gradle，groovy</span><br><span class="line">haskell</span><br><span class="line">java，javascript，json，julia</span><br><span class="line">kotlin</span><br><span class="line">lisp，lua</span><br><span class="line">makefile，markdown，matlab</span><br><span class="line">objectivec</span><br><span class="line">perl，php，python</span><br><span class="line">r，ruby，rust</span><br><span class="line">scala，shell，sql，swift</span><br><span class="line">tex，typescript</span><br><span class="line">verilog，vhdl</span><br><span class="line">xml</span><br><span class="line">yaml</span><br></pre></td></tr></table></figure><p>如果想要更换代码高亮样式，可在上方<strong>代码主题</strong>中挑选。</p><p>其中<strong>微信代码主题与微信官方一致</strong>，有以下注意事项：</p><ul><li>带行号且不换行，代码大小与官方一致</li><li>需要在代码块处标志语言，否则无法高亮</li><li>粘贴到公众号后，用鼠标点代码块内外一次，完成高亮</li></ul><p>diff 不能同时和其他语言的高亮同时显示，且需要调整代码主题为微信代码主题以外的代码主题才能看到 diff 效果，使用效果如下:</p><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="addition">+ 新增项</span></span><br><span class="line"><span class="deletion">- 删除项</span></span><br></pre></td></tr></table></figure><p><strong>其他主题不带行号，可自定义是否换行，代码大小与当前编辑器一致</strong></p><h3 id="3-3-数学公式"><a href="#3-3-数学公式" class="headerlink" title="3.3 数学公式"></a>3.3 数学公式</h3><blockquote><p>支持平台：微信公众号、知乎。</p></blockquote><p>行内公式使用方法，比如这个化学公式：$\ce{Hg^2+ -&gt;[I-] HgI2 -&gt;[I-] [Hg^{II}I4]^2-}$</p><p>块公式使用方法如下：</p><p>$$H(D_2) = -\left(\frac{2}{4}\log_2 \frac{2}{4} + \frac{2}{4}\log_2 \frac{2}{4}\right) = 1$$</p><p>矩阵：</p><p>$$<br>  \begin{pmatrix}<br>  1 &amp; a_1 &amp; a_1^2 &amp; \cdots &amp; a_1^n \<br>  1 &amp; a_2 &amp; a_2^2 &amp; \cdots &amp; a_2^n \<br>  \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \<br>  1 &amp; a_m &amp; a_m^2 &amp; \cdots &amp; a_m^n \<br>  \end{pmatrix}<br>$$</p><p>公式由于微信不支持，目前的解决方案是转成 svg 放到微信中，无需调整，矢量不失真。</p><p>目前测试如果公式量过大，在 Chrome 下会存在粘贴后无响应，但是在 Firefox 中始终能够成功。</p><h3 id="3-4-TOC"><a href="#3-4-TOC" class="headerlink" title="3.4 TOC"></a>3.4 TOC</h3><blockquote><p>支持平台：微信公众号、知乎。</p></blockquote><p>TOC 全称为 Table of Content，列出全部标题。</p><p>[TOC]</p><p>由于微信只支持到二级列表，本工具仅支持二级标题和三级标题的显示。</p><h3 id="3-5-注音符号"><a href="#3-5-注音符号" class="headerlink" title="3.5 注音符号"></a>3.5 注音符号</h3><blockquote><p>支持平台：微信公众号。</p></blockquote><p>支持注音符号，用法如下：</p><p>Markdown Nice 这么好用，简直是{喜大普奔|hē hē hē hē}呀！</p><h3 id="3-6-横屏滑动幻灯片"><a href="#3-6-横屏滑动幻灯片" class="headerlink" title="3.6 横屏滑动幻灯片"></a>3.6 横屏滑动幻灯片</h3><blockquote><p>支持平台：微信公众号。</p></blockquote><p>通过<code>&lt;![](url),![](url)&gt;</code>这种语法设置横屏滑动滑动片，具体用法如下：</p><p>&lt;<img src="https://markdown.com.cn/images/blue.jpg" alt="蓝1">,<img src="https://markdown.com.cn/images/green.jpg" alt="绿2">,<img src="https://markdown.com.cn.jpg/" alt="红3">&gt;</p><h2 id="4-其他语法"><a href="#4-其他语法" class="headerlink" title="4 其他语法"></a>4 其他语法</h2><h3 id="4-1-HTML"><a href="#4-1-HTML" class="headerlink" title="4.1 HTML"></a>4.1 HTML</h3><p>支持原生 HTML 语法，请写内联样式，如下：</p><p><span style="display:block;text-align:right;color:orangered;">橙色居右</span><br><span style="display:block;text-align:center;color:orangered;">橙色居中</span></p><h3 id="4-2-UML"><a href="#4-2-UML" class="headerlink" title="4.2 UML"></a>4.2 UML</h3><p>不支持，推荐使用开源工具<code>https://draw.io/</code>制作后再导入图片</p><h2 id="5-致谢"><a href="#5-致谢" class="headerlink" title="5 致谢"></a>5 致谢</h2><ul><li>歌词经理 <a href="https://github.com/lyricat/wechat-format" title="灵感来源">wechat-fromat</a></li><li>颜家大少 <a href="http://md.aclickall.com/" title="MdA2All">MD2All</a></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>书单</title>
+      <link href="/books/index.html"/>
+      <url>/books/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>番剧列表</title>
+      <link href="/bangumis/index.html"/>
+      <url>/bangumis/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于本站</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="神奇の沟通"><a href="#神奇の沟通" class="headerlink" title="神奇の沟通"></a>神奇の沟通</h2><ul><li>沟通是<font color=red> <strong>传递</strong></font> 沟通是<font color=red> <strong>交流</strong></font></li><li>沟通是<font color=red> <strong>分享</strong></font> 沟通是<font color=red> <strong>智慧</strong></font></li><li>沟通是<font color=red> <strong>友谊</strong></font> 沟通是<font color=red> <strong>力量</strong></font></li></ul><p>“ <strong><font color=chocolate>认识自我、超越自我</font></strong> “ 是沟通的最高境界</p><ul><li>当你在项目中感觉所要学习的人和事越来越多时，说明你在 <strong><font color=chocolate>成长</font></strong> 。</li><li>当你感觉要责怪的人和事越来越少时，说明你在 <strong><font color=chocolate>成熟</font></strong> 。</li><li>当你在项目中不断获得了友谊和朋友时，说明你将取得项目的 <strong><font color=chocolate>成功</font></strong> 。</li></ul><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>CSDN：<a href="https://chocolate.blog.csdn.net/">https://chocolate.blog.csdn.net/</a>（CSDN认证博客专家）</p><p>微信公众号：小狮子前端Vue</p><p>一个不是只会写业务代码的前端攻城狮会带给你怎样的体会呢？</p><p>座右铭：学如逆水行舟，不进则退</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index-1.html"/>
+      <url>/categories/index-1.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>留言板</title>
+      <link href="/contact/index.html"/>
+      <url>/contact/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>相册集</title>
+      <link href="/gallery/index.html"/>
+      <url>/gallery/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/013.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/023.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/033.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/003.webp"></p>          </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Music</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=2693598459&auto=0&height=430"></iframe>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>说说</title>
+      <link href="/talk/index.html"/>
+      <url>/talk/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index-1.html"/>
+      <url>/tags/index-1.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+  
+</search>
