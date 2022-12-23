@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>代码演示</title>
+      <link href="/2022/12/23/%E4%BB%A3%E7%A0%81%E6%BC%94%E7%A4%BA/"/>
+      <url>/2022/12/23/%E4%BB%A3%E7%A0%81%E6%BC%94%E7%A4%BA/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">a</span> () &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;hello,world&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo语法注意</title>
       <link href="/2022/12/22/hexo%E8%AF%AD%E6%B3%95%E6%B3%A8%E6%84%8F/"/>
       <url>/2022/12/22/hexo%E8%AF%AD%E6%B3%95%E6%B3%A8%E6%84%8F/</url>
@@ -112,7 +125,7 @@
       <link href="/2022/12/16/2022-12-16-blog%E6%90%AD%E5%BB%BA%E6%B3%A8%E6%84%8F%E7%82%B9/"/>
       <url>/2022/12/16/2022-12-16-blog%E6%90%AD%E5%BB%BA%E6%B3%A8%E6%84%8F%E7%82%B9/</url>
       
-        <content type="html"><![CDATA[<h2 id="随手记"><a href="#随手记" class="headerlink" title="随手记"></a>随手记</h2><ol><li><p>HTML   CSS   Java Script</p></li><li><p>md编辑器：Typora;代码编辑器：nopad++,<strong>VSCode</strong>,Webstrom。(不推荐使用记事本)</p></li><li><p>环境搭建：git–版本控制工具；Node–javascript运行环境；<strong>npm</strong>,cnpm,yarn–包管理工具</p></li><li><p>-g (global)    config–配置（文件）</p></li><li><p>熟悉一些Git命令：</p><h4 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init --初始化一个git仓库</span><br><span class="line">git clone --克隆（copy）一个git仓库</span><br><span class="line">git clone git@github.com/XXXX/XXXX.git         --SSH协议（最常用的是 ssh，因为速度较快，还可以配置公钥免输入密码）</span><br><span class="line">git clone git://github.com/schacon/grit.git          --GIT协议</span><br><span class="line">git clone https://github.com/schacon/grit.git      --HTTPS协议</span><br></pre></td></tr></table></figure><h4 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">git config  配置用户名和邮箱地址</span><br><span class="line">git config --global user.name &#x27;你的用户名&#x27;</span><br><span class="line">git config --global user.email &#x27;你的邮箱&#x27;</span><br><span class="line">git add .  将文件添加到缓存中</span><br><span class="line">git add *.java</span><br><span class="line">git status 查看相关文件的状态</span><br><span class="line">git commit 将缓存区内容添加到仓库中，可以在后面加-m选项，以在命令行中提供提交注释</span><br><span class="line">git commit -m &quot;第一次版本提交&quot;</span><br><span class="line">git commit -am &quot;第一次版本提交&quot;    想跳过add这一步，可以直接使用 -a选项</span><br></pre></td></tr></table></figure><h4 id="远程仓库"><a href="#远程仓库" class="headerlink" title="远程仓库"></a>远程仓库</h4><p>前面我们使用到的 Git 命令都是在本地执行，如果你想通过 Git 分享你的代码或者与其他开发人员合作。 你就需要将数据放到一台其他开发人员能够连接的服务器上。一般将使用 Github 作为远程仓库，来介绍Git 远程仓库的使用。远程仓库常用的几种指令：</p><p>git remote add：添加远程仓库到本地<br>git remote：查看当前的远程仓库<br>git fetch、git pull：提取远程仓仓库<br>git push：推送到远程仓库<br>git remote rm：删除远程仓库</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git remote add [alias] [url]</span><br><span class="line">git pull [options] [&lt;repository&gt; [&lt;refspec&gt;…]]</span><br><span class="line">git push [alias] [branch]     git push 推送你的新分支与数据到某个远端仓库命令</span><br><span class="line"></span><br></pre></td></tr></table></figure></li></ol><ol start="6"><li><p>hexo命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo g   重新生成一下文件，因为我问用的是静态文件，如果有改动的话还是使用一下这个命令</span><br><span class="line">hexo s   本地预览，s-server</span><br><span class="line">hexo d   上传至github，d-deploy部署</span><br><span class="line">hexo n &quot;title&quot;   新建一篇文章n-new</span><br><span class="line">hexo new page tags/categories/link</span><br></pre></td></tr></table></figure></li><li><p>Visual Studio Code可以按<strong>ctrl+f</strong>搜索本页，按<strong>ctrl+shift+f</strong>全局搜索</p></li><li><p>通过git进行代码的版本控制</p></li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;# blog-code&quot; &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m &quot;first commit&quot;</span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/28742/blog-code.git</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure><ol start="9"><li>“type”只有当配置标签，分类，链接时才必要配置，其余时候只有”title”和”date”两项必要配置<br>可以直接使用命令：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n &quot;title&quot;</span><br></pre></td></tr></table></figure></li><li><code>hello,world!</code>与</li></ol>   <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello,world！</span><br></pre></td></tr></table></figure><ol start="11"><li></li></ol>]]></content>
+        <content type="html"><![CDATA[<h2 id="随手记"><a href="#随手记" class="headerlink" title="随手记"></a>随手记</h2><ol><li><p>HTML   CSS   Java Script</p></li><li><p>md编辑器：Typora;代码编辑器：nopad++,<strong>VSCode</strong>,Webstrom。(不推荐使用记事本)</p></li><li><p>环境搭建：git–版本控制工具；Node–javascript运行环境；<strong>npm</strong>,cnpm,yarn–包管理工具</p></li><li><p>-g (global)    config–配置（文件）</p></li><li><p>熟悉一些Git命令：</p><h4 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init --初始化一个git仓库</span><br><span class="line">git clone --克隆（copy）一个git仓库</span><br><span class="line">git clone git@github.com/XXXX/XXXX.git         --SSH协议（最常用的是 ssh，因为速度较快，还可以配置公钥免输入密码）</span><br><span class="line">git clone git://github.com/schacon/grit.git          --GIT协议</span><br><span class="line">git clone https://github.com/schacon/grit.git      --HTTPS协议</span><br></pre></td></tr></table></figure><h4 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">git config  配置用户名和邮箱地址</span><br><span class="line">git config --global user.name &#x27;你的用户名&#x27;</span><br><span class="line">git config --global user.email &#x27;你的邮箱&#x27;</span><br><span class="line">git add .  将文件添加到缓存中</span><br><span class="line">git add *.java</span><br><span class="line">git status 查看相关文件的状态</span><br><span class="line">git commit 将缓存区内容添加到仓库中，可以在后面加-m选项，以在命令行中提供提交注释</span><br><span class="line">git commit -m &quot;第一次版本提交&quot;</span><br><span class="line">git commit -am &quot;第一次版本提交&quot;    想跳过add这一步，可以直接使用 -a选项</span><br></pre></td></tr></table></figure><h4 id="远程仓库"><a href="#远程仓库" class="headerlink" title="远程仓库"></a>远程仓库</h4><p>前面我们使用到的 Git 命令都是在本地执行，如果你想通过 Git 分享你的代码或者与其他开发人员合作。 你就需要将数据放到一台其他开发人员能够连接的服务器上。一般将使用 Github 作为远程仓库，来介绍Git 远程仓库的使用。远程仓库常用的几种指令：</p><p>git remote add：添加远程仓库到本地<br>git remote：查看当前的远程仓库<br>git fetch、git pull：提取远程仓仓库<br>git push：推送到远程仓库<br>git remote rm：删除远程仓库</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git remote add [alias] [url]</span><br><span class="line">git pull [options] [&lt;repository&gt; [&lt;refspec&gt;…]]</span><br><span class="line">git push [alias] [branch]     git push 推送你的新分支与数据到某个远端仓库命令</span><br><span class="line"></span><br></pre></td></tr></table></figure></li></ol><ol start="6"><li><p>hexo命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo g   重新生成一下文件，因为我问用的是静态文件，如果有改动的话还是使用一下这个命令</span><br><span class="line">hexo s   本地预览，s-server</span><br><span class="line">hexo d   上传至github，d-deploy部署</span><br><span class="line">hexo n &quot;title&quot;   新建一篇文章n-new</span><br><span class="line">hexo new page tags/categories/link</span><br></pre></td></tr></table></figure></li><li><p>Visual Studio Code可以按<strong>ctrl+f</strong>搜索本页，按<strong>ctrl+shift+f</strong>全局搜索</p></li><li><p>通过git进行代码的版本控制</p></li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;# blog-code&quot; &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m &quot;first commit&quot;</span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/28742/blog-code.git</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure><ol start="9"><li>“type”只有当配置标签，分类，链接时才必要配置，其余时候只有”title”和”date”两项必要配置<br>可以直接使用命令：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n &quot;title&quot;</span><br></pre></td></tr></table></figure></li><li><code>hello,world!</code>与</li></ol>   <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello,world！</span><br></pre></td></tr></table></figure><ol start="11"><li>  怎样的到图片链接？<br>  软件介绍：<br>uTools Win/macOS 中文版 (强大的插件工具集合)由佛系软件foxirj.com整理发布。uTools 是一个极简、插件化的现代桌面软件，通过自由选配丰富的插件，打造得心应手的工具集合。通过快捷键<strong>默认 alt + space</strong>就可以快速呼出这个搜索框。你可以往输入框内粘贴文本、图片、截图、文件、文件夹等等，能够处理此内容的插件也早已准备就绪，统一的设计风格和操作方式，助你高效的得到结果。一旦你熟悉它后，能够为你节约大量时间，即用即走、不中断、无干扰，让你可以更加专注地改变世界。</li></ol><p>   自动识别<br>   uTools支持多种输入源呼出插件，例如：字符输入、文件拖拽、截图粘贴，亦能够自动识别输入内容进入相应插件，如json、时间戳、base64等。</p><p>   数据同步<br>   uTools各插件产生的数据将保存到本地数据库中。为了便于在不同设备之间共享数据，或是预防重装系统造成数据丢失，我们提供云端数据备份同步服务，登录后可一键开启。</p><p>   高度自由<br>   uTools 一切皆插件的设计，可以允许你高度自由的定义自己的开发工具，现在你也可以扩展第三方插件或者开发属于自己的插件。<br>   <code>alt + space</code>接着搜索“占位图”即可</p>]]></content>
       
       
       
@@ -137,17 +150,6 @@
     
     
     <entry>
-      <title>书单</title>
-      <link href="/books/index.html"/>
-      <url>/books/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于本站</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -159,9 +161,31 @@
     
     
     <entry>
+      <title>书单</title>
+      <link href="/books/index.html"/>
+      <url>/books/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>留言板</title>
       <link href="/contact/index.html"/>
       <url>/contact/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -181,22 +205,44 @@
     
     
     <entry>
-      <title>Music</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>相册集</title>
+      <link href="/gallery/index.html"/>
+      <url>/gallery/index.html</url>
       
-        <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=2693598459&auto=0&height=430"></iframe>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/013.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/023.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/033.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/003.webp"></p>          </div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>相册集</title>
-      <link href="/gallery/index.html"/>
-      <url>/gallery/index.html</url>
+      <title>番剧列表</title>
+      <link href="/bangumis/index.html"/>
+      <url>/bangumis/index.html</url>
       
-        <content type="html"><![CDATA[<div class="justified-gallery"><p><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/013.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/023.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/033.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/003.webp"></p>          </div>]]></content>
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Music</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=2693598459&auto=0&height=430"></iframe>]]></content>
       
     </entry>
     
@@ -217,39 +263,6 @@
       <title>说说</title>
       <link href="/talk/index.html"/>
       <url>/talk/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>友情链接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>番剧列表</title>
-      <link href="/bangumis/index.html"/>
-      <url>/bangumis/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
