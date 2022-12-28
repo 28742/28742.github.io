@@ -8,7 +8,7 @@
       <link href="/2022/12/27/%E5%8D%9A%E5%AE%A2%E4%B8%AD%E8%BF%98%E9%9C%80%E8%A6%81%E6%B7%BB%E5%8A%A0%E7%9A%84%E9%A1%B9%E7%9B%AE/"/>
       <url>/2022/12/27/%E5%8D%9A%E5%AE%A2%E4%B8%AD%E8%BF%98%E9%9C%80%E8%A6%81%E6%B7%BB%E5%8A%A0%E7%9A%84%E9%A1%B9%E7%9B%AE/</url>
       
-        <content type="html"><![CDATA[<ol><li>微博热搜插件</li><li>地图插件</li><li></li></ol>]]></content>
+        <content type="html"><![CDATA[<ol><li>微博热搜插件</li><li>地图插件</li><li>还有什么呢</li></ol>]]></content>
       
       
       
@@ -189,6 +189,17 @@
     
     
     <entry>
+      <title>关于本站</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="神奇の沟通"><a href="#神奇の沟通" class="headerlink" title="神奇の沟通"></a>神奇の沟通</h2><ul><li>沟通是<font color=red> <strong>传递</strong></font> 沟通是<font color=red> <strong>交流</strong></font></li><li>沟通是<font color=red> <strong>分享</strong></font> 沟通是<font color=red> <strong>智慧</strong></font></li><li>沟通是<font color=red> <strong>友谊</strong></font> 沟通是<font color=red> <strong>力量</strong></font></li></ul><p>“ <strong><font color=chocolate>认识自我、超越自我</font></strong> “ 是沟通的最高境界</p><ul><li>当你在项目中感觉所要学习的人和事越来越多时，说明你在 <strong><font color=chocolate>成长</font></strong> 。</li><li>当你感觉要责怪的人和事越来越少时，说明你在 <strong><font color=chocolate>成熟</font></strong> 。</li><li>当你在项目中不断获得了友谊和朋友时，说明你将取得项目的 <strong><font color=chocolate>成功</font></strong> 。</li></ul><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>github：<a href="https://28742.github.com/">https://chocolate.blog.csdn.net/</a>（CSDN认证博客专家）</p><p>微信公众号：飘飘何所似</p><p>尽可能多会一点东西吧</p><p>座右铭：学如逆水行舟，不进则退</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>书单</title>
       <link href="/books/index.html"/>
       <url>/books/index.html</url>
@@ -200,42 +211,9 @@
     
     
     <entry>
-      <title>关于本站</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="神奇の沟通"><a href="#神奇の沟通" class="headerlink" title="神奇の沟通"></a>神奇の沟通</h2><ul><li>沟通是<font color=red> <strong>传递</strong></font> 沟通是<font color=red> <strong>交流</strong></font></li><li>沟通是<font color=red> <strong>分享</strong></font> 沟通是<font color=red> <strong>智慧</strong></font></li><li>沟通是<font color=red> <strong>友谊</strong></font> 沟通是<font color=red> <strong>力量</strong></font></li></ul><p>“ <strong><font color=chocolate>认识自我、超越自我</font></strong> “ 是沟通的最高境界</p><ul><li>当你在项目中感觉所要学习的人和事越来越多时，说明你在 <strong><font color=chocolate>成长</font></strong> 。</li><li>当你感觉要责怪的人和事越来越少时，说明你在 <strong><font color=chocolate>成熟</font></strong> 。</li><li>当你在项目中不断获得了友谊和朋友时，说明你将取得项目的 <strong><font color=chocolate>成功</font></strong> 。</li></ul><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>CSDN：<a href="https://chocolate.blog.csdn.net/">https://chocolate.blog.csdn.net/</a>（CSDN认证博客专家）</p><p>微信公众号：小狮子前端Vue</p><p>一个不是只会写业务代码的前端攻城狮会带给你怎样的体会呢？</p><p>座右铭：学如逆水行舟，不进则退</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>相册集</title>
-      <link href="/gallery/index.html"/>
-      <url>/gallery/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="justified-gallery"><p><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/013.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/023.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/033.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/003.webp"></p>          </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>番剧列表</title>
-      <link href="/bangumis/index.html"/>
-      <url>/bangumis/index.html</url>
+      <title>留言板</title>
+      <link href="/contact/index.html"/>
+      <url>/contact/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -255,6 +233,17 @@
     
     
     <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/css/custom.css"/>
       <url>/css/custom.css</url>
@@ -266,9 +255,31 @@
     
     
     <entry>
-      <title>留言板</title>
-      <link href="/contact/index.html"/>
-      <url>/contact/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>相册集</title>
+      <link href="/gallery/index.html"/>
+      <url>/gallery/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="justified-gallery"><p><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/013.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/023.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/033.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/003.webp"></p>          </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>番剧列表</title>
+      <link href="/bangumis/index.html"/>
+      <url>/bangumis/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -288,33 +299,22 @@
     
     
     <entry>
-      <title>Music</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=2693598459&auto=0&height=430"></iframe>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>说说</title>
       <link href="/talk/index.html"/>
       <url>/talk/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Music</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=2693598459&auto=0&height=430"></iframe>]]></content>
       
     </entry>
     
