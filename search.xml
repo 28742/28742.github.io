@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>远程桌面</title>
+      <link href="/2022/12/30/%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/"/>
+      <url>/2022/12/30/%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/</url>
+      
+        <content type="html"><![CDATA[<p>使用说明文字版（必看）：</p><ol><li>如何判断你的电脑是否支持？<br>如果你的电脑是Windows 10，请打开“Windows设置”-“系统”在左侧栏目中寻找是否有“远程桌面”选项，如果有则按视频教程中的方法配置，没有请在下面链接中下载配套程序或者升级到最新版本<br>如果你的电脑是其他版本的Windows，请在下面链接中下载配套程序，支持的Windows版本在下面（大部分都支持啦）</li><li>移动端程序下载<br>Windows平板：<a href="https://go.microsoft.com/fwlink/?LinkID=616709">https://go.microsoft.com/fwlink/?LinkID=616709</a><br>Android（安卓）：<a href="https://www.coolapk.com/apk/com.microsoft.rdc.android">https://www.coolapk.com/apk/com.microsoft.rdc.android</a><br>iOS（iPhone及iPad）：<a href="https://itunes.apple.com/us/app/microsoft-remote-desktop/id714464092?mt=8">https://itunes.apple.com/us/app/microsoft-remote-desktop/id714464092?mt=8</a><br>macOS：<a href="https://itunes.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12">https://itunes.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12</a></li><li>电脑端配置方法：</li></ol><ol><li>Windows 10 Fall Creator更新（1709）或更高版本 （即我说的RS4）<br>在要连接的设备上，选择“开始” ，然后单击左侧的“设置”图标。<br>选择“系统”组，然后选择“远程桌面”项。<br>点击选项卡启用远程桌面。<br>建议保持PC唤醒（就是不关机不睡眠）状态和可发现以便于连接。单击“显示设置”以启用。<br>根据需要，通过单击“可以远程访问此PC”的“选择用户”添加可以远程连接的用户。<br>管理员组的成员自动拥有访问权限。<br>在“如何连接到此PC”下记下此PC的名称，这样配置客户端的时候就能知道自己要连接的电脑的名字了。</li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>博客中还需要添加的项目</title>
       <link href="/2022/12/27/%E5%8D%9A%E5%AE%A2%E4%B8%AD%E8%BF%98%E9%9C%80%E8%A6%81%E6%B7%BB%E5%8A%A0%E7%9A%84%E9%A1%B9%E7%9B%AE/"/>
       <url>/2022/12/27/%E5%8D%9A%E5%AE%A2%E4%B8%AD%E8%BF%98%E9%9C%80%E8%A6%81%E6%B7%BB%E5%8A%A0%E7%9A%84%E9%A1%B9%E7%9B%AE/</url>
@@ -189,11 +202,22 @@
     
     
     <entry>
-      <title>关于本站</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>书单</title>
+      <link href="/books/index.html"/>
+      <url>/books/index.html</url>
       
-        <content type="html"><![CDATA[<h2 id="神奇の沟通"><a href="#神奇の沟通" class="headerlink" title="神奇の沟通"></a>神奇の沟通</h2><ul><li>沟通是<font color=red> <strong>传递</strong></font> 沟通是<font color=red> <strong>交流</strong></font></li><li>沟通是<font color=red> <strong>分享</strong></font> 沟通是<font color=red> <strong>智慧</strong></font></li><li>沟通是<font color=red> <strong>友谊</strong></font> 沟通是<font color=red> <strong>力量</strong></font></li></ul><p>“ <strong><font color=chocolate>认识自我、超越自我</font></strong> “ 是沟通的最高境界</p><ul><li>当你在项目中感觉所要学习的人和事越来越多时，说明你在 <strong><font color=chocolate>成长</font></strong> 。</li><li>当你感觉要责怪的人和事越来越少时，说明你在 <strong><font color=chocolate>成熟</font></strong> 。</li><li>当你在项目中不断获得了友谊和朋友时，说明你将取得项目的 <strong><font color=chocolate>成功</font></strong> 。</li></ul><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>github：<a href="https://28742.github.com/">https://chocolate.blog.csdn.net/</a>（CSDN认证博客专家）</p><p>微信公众号：飘飘何所似</p><p>尽可能多会一点东西吧</p><p>座右铭：学如逆水行舟，不进则退</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>留言板</title>
+      <link href="/contact/index.html"/>
+      <url>/contact/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -211,11 +235,11 @@
     
     
     <entry>
-      <title>书单</title>
-      <link href="/books/index.html"/>
-      <url>/books/index.html</url>
+      <title>关于本站</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="神奇の沟通"><a href="#神奇の沟通" class="headerlink" title="神奇の沟通"></a>神奇の沟通</h2><ul><li>沟通是<font color=red> <strong>传递</strong></font> 沟通是<font color=red> <strong>交流</strong></font></li><li>沟通是<font color=red> <strong>分享</strong></font> 沟通是<font color=red> <strong>智慧</strong></font></li><li>沟通是<font color=red> <strong>友谊</strong></font> 沟通是<font color=red> <strong>力量</strong></font></li></ul><p>“ <strong><font color=chocolate>认识自我、超越自我</font></strong> “ 是沟通的最高境界</p><ul><li>当你在项目中感觉所要学习的人和事越来越多时，说明你在 <strong><font color=chocolate>成长</font></strong> 。</li><li>当你感觉要责怪的人和事越来越少时，说明你在 <strong><font color=chocolate>成熟</font></strong> 。</li><li>当你在项目中不断获得了友谊和朋友时，说明你将取得项目的 <strong><font color=chocolate>成功</font></strong> 。</li></ul><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>github：<a href="https://28742.github.com/">https://chocolate.blog.csdn.net/</a>（CSDN认证博客专家）</p><p>微信公众号：飘飘何所似</p><p>尽可能多会一点东西吧</p><p>座右铭：学如逆水行舟，不进则退</p>]]></content>
       
     </entry>
     
@@ -225,17 +249,6 @@
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>留言板</title>
-      <link href="/contact/index.html"/>
-      <url>/contact/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -266,33 +279,11 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>相册集</title>
       <link href="/gallery/index.html"/>
       <url>/gallery/index.html</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/013.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/023.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/033.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/003.webp"></p>          </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="justified-gallery"><p><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/013.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/023.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/033.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/003.webp"></p>          </div>]]></content>
       
     </entry>
     
@@ -313,6 +304,28 @@
       <title>说说</title>
       <link href="/talk/index.html"/>
       <url>/talk/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
