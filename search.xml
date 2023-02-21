@@ -4,13 +4,57 @@
   
     
     <entry>
+      <title>正则表达式基本规则</title>
+      <link href="/2023/02/19/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%9F%BA%E6%9C%AC%E8%A7%84%E5%88%99/"/>
+      <url>/2023/02/19/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%9F%BA%E6%9C%AC%E8%A7%84%E5%88%99/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>编写正则表达式<br>写正则表达式之前先得了解一下一些规则。<br>到底什么是正则表达式？<br>在编写处理字符串的程序或网页时，经常有查找符合某些复杂规则的字符串的需要。正则表达式就是用于描述这些规则的工具。换句话说，正则表达式就是记录文本规则的代码。<br>常用元字符</p></blockquote><hr><p>代码    说明<br>.    匹配除换行符以外的任意字符<br>\w    匹配字母或数字或下划线<br>\s    匹配任意的空白符<br>\d    匹配数字<br>\b    匹配单词的开始或结束<br>^    匹配字符串的开始<br>$    匹配字符串的结束<br>常用限定符</p><p>代码 / 语法    说明</p><ul><li>   重复零次或更多次</li></ul><ul><li>   重复一次或更多次<br>?    重复零次或一次<br>{n}    重复 n 次<br>{n,}    重复 n 次或更多次<br>{n,m}    重复 n 到 m 次<br>常用反义词</li></ul><p>代码 / 语法    说明<br>\W    匹配任意不是字母，数字，下划线，汉字的字符<br>\S    匹配任意不是空白符的字符<br>\D    匹配任意非数字的字符<br>\B    匹配不是单词开头或结束的位置<br>[^x]    匹配除了 x 以外的任意字符<br>[^aeiou]    匹配除了 aeiou 这几个字母以外的任意字符<br>常用正则表达式<br>代码 / 语法    说明<br>[\u4e00-\u9fa5]    中文字符<br>\s    空格符<br>[1-9]    1-9 的整数<br>[a-z]    所有小写字母<br>[A-Z]    所有大写字母<br>[s]    表示匹配 s 这个字符，s 可以是任何字符<br>(\s    \n)</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> up </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一些华科官网</title>
+      <link href="/2023/02/19/%E4%B8%80%E4%BA%9B%E5%8D%8E%E7%A7%91%E5%AE%98%E7%BD%91/"/>
+      <url>/2023/02/19/%E4%B8%80%E4%BA%9B%E5%8D%8E%E7%A7%91%E5%AE%98%E7%BD%91/</url>
+      
+        <content type="html"><![CDATA[<p> 可能会使用到的网站列表，建议保存到浏览器收藏夹？<br> <strong>对网站的简略说明往往并不包含其全部内容。</strong> </p><p> - <a href="http://software.hust.edu.cn/">智慧华中大 ｜ 正版软件平台</a> </p><p>   用于下载学校提供的一系列正版软件。截止目前（2020/10/19）包括包括office、adobe，matlab以及Windows </p><p> - <a href="http://www.lib.hust.edu.cn/">华中科技大学图书馆</a> </p><p>   个人只用于搜索馆内图书。其他更为丰富的功能以及资源，如论文查询等接触的不多。 </p><p> - <a href="http://hubs.hust.edu.cn/">hub系统</a> </p><p>   不必多说 </p><p> - <a href="http://hubs.hust.edu.cn/">华中大邮件系统</a> </p><p>   一般在申请各种教育优惠时使用。不过是真的垃圾，经常要等好久才能收到邮件 </p><p> - <a href="http://jwc.hust.edu.cn/">华科教务处</a> </p><p>   各种校内通知的信息聚合。一般不会主动点开看？个人主要用来下载培养计划以及各个院系的课表 </p><p> - <a href="http://xg.hust.edu.cn/home/login.do">学工系统</a> </p><p>   不知道还在不在维护。个人仅用于查看工时信息 </p><p> - <a href="http://curriculum.hust.edu.cn/">课程中心</a> </p><p>   用于每学期的评教 </p><p> - <a href="http://wsxk.hust.edu.cn/">选课系统</a> </p><p>   用于<del>抢</del>选公选课 </p><p> - <a href="http://ncc.hust.edu.cn/index.htm">网络与计算中心</a> </p><p>   个人只用于下载有线网客户端(<a href="http://ncc.hust.edu.cn/xzzx1/rzkhd.htm">http://ncc.hust.edu.cn/xzzx1/rzkhd.htm</a>) </p><p> - <a href="https://pekwdl.hust.edu.cn/kwdl/">课外锻炼管理系统</a> </p><p>   用来查询课外锻炼次数等信息 </p><p> - <a href="https://ehall.hust.edu.cn/taskcenter/workflow/index">网上办事大厅</a> </p><p>   一般用不到。用到了自然就知道了。似乎很多功能在微校园都有？ </p><p> - <a href="http://advise.hust.edu.cn/xfpt/home/login.do">信息反馈平台</a> </p><p>   用于<del>吃瓜</del>向学校反馈各种问题 </p><p> - <a href="https://cjd.hust.edu.cn/">可信电子成绩单</a> </p><p>   用于获得中英文成绩的pdf版本。<strong>内含华科算法计算得出的GPA</strong> </p><p>   &gt; <strong>可信电子成绩单</strong>是指具有电子签章的PDF版成绩单文件，采用国密算法和国际加密算法相结合的双重数字签名，保证文件的可信和不可篡改。 </p><p> - <a href="http://faculty.hust.edu.cn/">教师主页聚合</a> </p><p>   根据不同筛选条件（院系，研究方向等）查找老师并查看其对应主页 </p><p> - <a href="http://cs.hust.edu.cn/bkjy/xxkc.htm">计算机学院选修课程介绍</a> </p><p>   &gt; <strong>仅限计算机学院</strong> </p><p>   含有各种课程的介绍，如考核方式等信息（该水的课还是水）</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hust </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>技能</title>
-      <link href="/2023/01/31/%E6%8A%80%E8%83%BD/"/>
-      <url>/2023/01/31/%E6%8A%80%E8%83%BD/</url>
+      <link href="/2023/01/31/%E8%BF%AB%E5%88%87%E9%9C%80%E8%A6%81%E6%8F%90%E5%8D%87%E7%9A%84%E6%8A%80%E8%83%BD/"/>
+      <url>/2023/01/31/%E8%BF%AB%E5%88%87%E9%9C%80%E8%A6%81%E6%8F%90%E5%8D%87%E7%9A%84%E6%8A%80%E8%83%BD/</url>
       
         <content type="html"><![CDATA[<p>现在继续提高语言技巧-<br>首先可以记忆一些优美而深刻的句子-这个有很多来源（galgame,古诗文，看到的网络小说，与人交流时别人说出的令人警醒的话等等<br>其次便是多去练习，多与人交流，别一天天待在寝室不出去，大学不该是这样，多走出去交流，多去感受</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> up </tag>
+            
+        </tags>
       
     </entry>
     
@@ -18,12 +62,18 @@
     
     <entry>
       <title>我的作品</title>
-      <link href="/2023/01/25/%E6%88%91%E7%9A%84%E4%BD%9C%E5%93%81/"/>
-      <url>/2023/01/25/%E6%88%91%E7%9A%84%E4%BD%9C%E5%93%81/</url>
+      <link href="/2023/01/25/%E6%88%91%E7%9A%84%E4%BD%9C%E5%93%81%E6%A2%97%E6%A6%82%E5%8F%8A%E8%AE%BE%E5%AE%9A/"/>
+      <url>/2023/01/25/%E6%88%91%E7%9A%84%E4%BD%9C%E5%93%81%E6%A2%97%E6%A6%82%E5%8F%8A%E8%AE%BE%E5%AE%9A/</url>
       
         <content type="html"><![CDATA[<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h2><p>书名：金辉恋曲四重奏|恋爱成叕|relife，献给亲爱的你|在妖魔横行的世界里带着女儿谈恋爱是否搞错了什么<br>作品封面（存储于图床）：<a href="https://files.catbox.moe/3vhq5x.jpg">https://files.catbox.moe/3vhq5x.jpg</a><br>作者（笔名）：nana|记忆信条|雪余痕后春熙风<br>简介：</p><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><h3 id="分卷一："><a href="#分卷一：" class="headerlink" title="分卷一："></a>分卷一：</h3><p>……<br>……</p><h3 id="分卷二："><a href="#分卷二：" class="headerlink" title="分卷二："></a>分卷二：</h3><p>……<br>……</p><h2 id="作品相关"><a href="#作品相关" class="headerlink" title="作品相关"></a>作品相关</h2><h3 id="设定："><a href="#设定：" class="headerlink" title="设定："></a>设定：</h3><pre><code>在一个魔法|奇幻的世界，人族和妖兽的对抗是大背景，人族内部的矛盾是主线；主角是一个被遗弃（？）的孤儿，被一个颇有些势力的富豪收养，目前正在读大学|高中？，设定上是一个天赋极强，并且很努力，非常低调的人，主角暂时还未觉醒；男主的四个女儿从未来穿越回来帮助男主攻略女主，这是本作的主线；女主有三个，一个义姐，一个三无，一个？？（妖族）；一个亲妹算作重点女配</code></pre><h3 id="大纲："><a href="#大纲：" class="headerlink" title="大纲："></a>大纲：</h3><h3 id="角色卡：1男主-4女主-4女儿-？？？配角-身份、特长、爱好"><a href="#角色卡：1男主-4女主-4女儿-？？？配角-身份、特长、爱好" class="headerlink" title="角色卡：1男主+4女主+4女儿+？？？配角|身份、特长、爱好"></a>角色卡：1男主+4女主+4女儿+？？？配角|身份、特长、爱好</h3><pre><code>1.男主——顾瑜（人族）：顾瑜母亲秦书雪在大学时代被渣男欺骗了身子并不幸怀孕，饱受各种艰难后独自生下顾瑜，但因为无力抚养他而将其送至福利院。之后顾瑜被本地的一富豪收养，目前在市立第一示范高中就读，理论成绩优异，魔法天赋尚未觉醒|已经觉醒？2.女一——顾青黛（人族）：顾瑜被收养后的继姐，十分善解人意的女生，在顾瑜到来后并未排挤他或闹矛盾，而是待之如亲弟；并且十分上进好学，从小时候起就一直督促和辅导男主学习，对于主角的成长起了很大作用3.女一女——顾4.女二女——顾迟迟（亚人）：顾迟迟之女，顾瑕后来借妖兽蛋重塑肉身怀下顾迟迟5.女配一——顾瑕（前期人族，后期妖族)：顾瑜的双胞胎妹妹，秦书雪在怀孕期间终日痛哭并且生活艰难，顾瑕自然流产化作“养料”保护顾瑜，灵魂附于秦书雪的传家玉佩中，后玉佩交于顾瑜，顾瑕在玉佩中看着顾瑜慢慢长大，后来在一次事故中顾瑜的血激活了玉佩，两人有了第一次交流……</code></pre><h3 id="灵感记录-可以设定的一些细节-铺垫："><a href="#灵感记录-可以设定的一些细节-铺垫：" class="headerlink" title="灵感记录/可以设定的一些细节/铺垫："></a>灵感记录/可以设定的一些细节/铺垫：</h3><pre><code>1.主角家的女仆实际上是男主的亲生母亲2.主角的双胞胎妹妹在其母亲怀孕时便夭折，灵魂附身在主角的玉佩？里面，后面借由一枚圣兽蛋重生，所以女儿是亚人；3.</code></pre>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> novel </tag>
+            
+        </tags>
       
     </entry>
     
@@ -31,38 +81,37 @@
     
     <entry>
       <title>start a novel</title>
-      <link href="/2023/01/24/start-a-novel/"/>
-      <url>/2023/01/24/start-a-novel/</url>
+      <link href="/2023/01/24/%E5%BC%80%E5%A7%8B%E6%88%91%E7%9A%84%E5%B0%8F%E8%AF%B4%E5%90%A7/"/>
+      <url>/2023/01/24/%E5%BC%80%E5%A7%8B%E6%88%91%E7%9A%84%E5%B0%8F%E8%AF%B4%E5%90%A7/</url>
       
         <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs 如题，我是一名大一的学生，最近产生了写小说的想法。"><br>刚开始产生这个想法时，我在网上搜了许多关于新手写文的文章。一开始本来是模仿飞卢风写爽文的，不过想了想，还是算了。我还是打算尽我所能，写个稍微有质量的小说。<br><br>倒也不是想将所有时间都用来写小说，我现在只打算用我学习之外的零碎时间来写。也许每天写不了多少，甚至根本不会写，但我还是想慢慢地写下去，满足我自己的一个兴趣爱好。<br><br>我是打算先将整篇小说写好，如果可能的话，再发布在网上，即使最终没有写完也不要紧。<br><br>所以，各位有什么建议吗？关于语言啊，断句啊，桥段啊，以及前期准备等这些。<br><br>对了，我写小说并不是以恰钱为首要目标的，单纯是一个兴趣，所以先谢谢那些可能来劝我放弃的人的好意了。<br></code></pre></td></tr></table></figure><h3 id="投稿与签约"><a href="#投稿与签约" class="headerlink" title="投稿与签约"></a>投稿与签约</h3><p>1 投稿前先认真了解网站签约规则和福利，不要等到签约后再去质疑。<br>2 闷头写就好，不要去找编辑编辑要推荐要资源，不然很容易招致反感，后面即使有机会推荐你也不会想到你，除非本身关系好。<br>3 如果到了10万字还没签约的话，可以考虑切掉。到20万字还没签的话，建议就不要再接着写了，现在的签约条件还是很宽松的。实在签约不了，可以去书旗签千字二的兜底，纯当练手，火了后还可以提高。<br>4 注意编辑给你安排的推荐位时间，提前做好存稿的准备<br>5 多听编辑的话，编辑对创作的帮助还是很大的，能让人少掉一些坑。</p><h3 id="讲好故事的要点和雷点"><a href="#讲好故事的要点和雷点" class="headerlink" title="讲好故事的要点和雷点"></a>讲好故事的要点和雷点</h3><p>1 不要急于讲完一个故事，把故事讲精彩才是重点<br>2 不要在意套路是否老套，老套路也是可以写新故事的，重点还是要把故事写得精彩好看。<br>3 挖过的坑要记下来，后面记得填，最好是用笔记本记下自己挖的坑。<br>4 主角一定要三观正，不要写明显三观有问题的主角形象，读者很难喜欢，网站也不好推荐。<br>5 剧情一定要有起伏，不要平淡平淡，制造人物矛盾冲突，打脸反打脸等经典网文套路要学会灵活运用。<br>6 写小说主要是要让读者看得开心，不要为了自嗨而放飞了。<br>7 词汇量不够的情况，可以用平时积累，以及查阅资料来解决。<br>8 不要随意堆设定，设定是在讲故事的过程中适当出现的，而不是一股脑地做说明。<br>9 把故事写精彩是第一要务，不要去卖弄文采，没有人喜欢。<br>10 遇到卡文时不要去硬坐着想，去干点别的事，出去走走，运动锻炼，看看电影什么的都是不错的选择。<br>11 遇到后续剧情不知道怎么安排好，去看看别人的套路，开新地图，拉新的反派，反打脸什么的套路往上套就好。<br>12 可以适当灌水，但不要啰嗦，没人喜欢啰嗦的文字。<br>13 千万不要虐主角，至少男频的读者基本没有喜欢虐主的文。</p><h3 id="态度以及习惯上的一些修行"><a href="#态度以及习惯上的一些修行" class="headerlink" title="态度以及习惯上的一些修行"></a>态度以及习惯上的一些修行</h3><p>1 至少有清楚并记得自己的主线剧情走向。<br>2 承载故事的内核是传达的精神，所以立意一定要明确，要有魂。<br>3 重心是讲故事，而不是讲道理，读者是来看故事的，而不是听你来讲道理的，通篇大道理的文章不是小说。<br>4 不要太过在意写的是什么题材，多关注关注自己写的故事和剧情，读者不是看题材选小说的，只要写得好看，什么题材都有大把人喜欢。<br>5<br>6 不要担心自己的文笔差，文笔好固然能够成为加分项，但文笔可以说是网络小说里最不重要的，能讲好故事就行。<br>7 书名很重要，一个有辨识度的书名更能获得读者，但也要注意别为了标新立异乱起书名。<br>8 不要总是盯着成绩看，也不要害怕看到成绩，以正常的心态去看待书的数据，分析把握剧情走向。<br>9 不要想那么多，不要在细节上纠结浪费时间，每天打开电脑就是干<br>10 用大白话去讲故事，不要刻意去用成语或古言，不要追求所谓的文笔，把故事和人物讲通了才是第一位。<br>11 注意找到自己的风格，不要随心所欲地发挥，一天一个样。<br>12 不要去和读者争论，不要因为差评影响创作的状态，专注写好故事。<br>13 养成做笔记的习惯，平时想到或看到什么好的灵感及时记录下来。<br>14 当有人质疑的时候，不要被情绪左右，思考读者究竟说得对不对，了解读者的阅读心理，再去做适当的调整。</p><p>50、认清自己的小说风格，找到合适的网站，不同网站风格是不一样的。</p><p>51、一定要注意故事的逻辑，虽然大多时候不用太过严格，但是明显的逻辑漏洞不能有，自己的编的故事要能圆回来。</p><p>52、若用到现实世界的诗词经典，要注意方式方式，合理运用，不能让人感觉是强行照搬凑数。</p><p>53、不虐主，但也不能让主角顺风顺水，不然一点期待感都没有，看得人毫无感觉，要给主角制造困难制造矛盾。</p><p>54、主角一定不要圣母性格，没有读者会喜欢圣母类型的主角。</p><p>55、人物性格一定要立体，至少主要要立体，性格鲜明。</p><p>56、学会合理安排剧情高潮，几章一小高潮，几十章一大高潮。</p><p>57、学会卡高潮，这个是积累后运用，在适当时候吸引读者，引起读者想象。说白了，就是学会断章。</p><p>58、用梗要适度，不能为了玩梗而玩梗，合理运用才是正确做法。</p><p>59、能写一只黄色长毛狗就不要写一只狗，能写一杯热奶茶就不要写一杯饮料，这既是灌水的方法，也能让文章更鲜活。</p><p>60、金手指不能无脑用，在关键地方运用更容易突出金手指的作用。</p><p>61、若是平时容易卡文或者偏离主线，可以把大纲和细纲都做起来。</p><p>63、一章最少要有2000字，根据习惯来设定。</p><p>64、不要断更，遇到事情请假，要提前跟读者说明，请假后尽量补更。</p><p>65、遇到码字时没有动力，可以在橙瓜码字上跟人拼字，多人一起码字能够激发创作动力。</p><p>66、简介要有亮点，让人一眼看到简介就想看最好。</p><p>67、都市小说要符合现实生活逻辑，不要太离谱。</p><p>69、如果回读自己的作品，发现有词语句子很生硬，就要学会修改。</p><p>70、人物说话时会有各种动作和表情，不要一直都是直接地说，道，没有任何描述修饰。</p><p>71、多利用人的五种感官看、听、嗅、味、触，使描述更有代入感。</p><p>72、在人物刻画上，可以给人物贴上一些标签以使其与你想要展现的某种性格形象绑定在一起，从而达到使人印象深刻的目的。</p><p>73、要留下神秘感给读者，将讲故事的过程当成一个揭秘的过程，吸引着读者看后面的故事，而不是一下就把世界全讲出来。</p><p>74、文章之初，要轻松，简单，要细致，要缓慢，以给人看着舒服为准，不要一开始就急不可耐地塞一堆东西。</p><p>75、主角不一定非要在一开始就出来，可以先讲这是一个什么世界，交代大致的背景和关系。</p><p>76、切记在一开始就出现一大堆人名，让读者记不住主角。</p><p>77、选择网站很重要，可以先多了解各大网站，或者咨询朋友。</p><p>78、主角的智商，可以不用智谋绝顶，但一定要聪明，读者不会喜欢只会蛮力的憨憨。</p><p>79、主角的感情戏方面，一定要是有情有义。</p><p>80、如果要写女性角色爱上男主，一定不要无脑无理由，一定是有一个合理的理由让她爱上男主。</p><p>81、力量体系设定上，不要把主角写得过分完美，有强大的地方也要有弱点的地方。</p><p>82、在逻辑上，一定要遵循有得必有失，有好必有坏的原则，主角想要得到什么，一定就要付出什么。比如茨威格的“所有的馈赠，都暗中标好了价格”表达意思，已经被无数作者用过。</p><p>83、描写上还要遵循由浅入深的规则，不要一开始就弄一堆复杂的资料去说明，不要讲故事写得像议论文，记住重点是讲故事。</p><p>84、人物的动作描写，要有意义，比如体现人物性格、当时心理活动、环境气氛等等。</p><p>85、不要在意剧情安排得是否太巧，无巧不成书，故事合理才最重要。</p><p>86、描写一些具体事物，如果不是日常生活中能够见到的，可以多用一些对比法来进行描述。</p><p>87、不要追新立异，特别是在主角身上，可以不用写主角多么帅，但一定不能丑，最好也不要写成胖子。</p><p>88、编辑有他们专业的视角和观察经验，对把握市场风向很有帮助。</p><p>89、合理规划写作时间和生活工作时间，尽量别熬夜，时间一长不仅对创作有影响，身体也会遭不住。</p><p>90、编辑没有义务帮忙指点，编辑一般很忙，如果咨询了编辑，没有回复或得到想要的结果，不要在意。</p><p>91、同行的、读者的点评，只能作为参考和反馈，不要不当回事，也不要太当回事。</p><p>92、不要拖到太晚更新，一是为读者考虑，二是为自己考虑，有规定更新时间的，还能避免出现意外导致不能按时更新。</p><p>93、起个有辨识度的笔名，容易记住的，但又别太复杂，好的笔名对读者的第一感觉是不同的。</p><p>94、遵守网站规定和政策法规，千万不要写不能写的违规内容，有问题的内容一定要修改，特别是编辑让你修改的，更要修改。</p><p>95、注意一些打着购买改编版权名头来的骗子，签合同前多注意点，可以问问朋友和编辑。</p><p>96、哪怕你的文笔再优美，也不要陷入到不断描写无关紧要的内容当中，从而影响故事的叙事。这样会影响整个故事的观感，也会转移读者的注意力，将读者兴趣打断。</p><p>97、重要的场景可以着重描写环境，以突出和渲染想要的氛围，但也不宜过长过多，效果达到了就行。</p><p>99、内容不要抽象，这样只会让读者感觉一头雾水，要学会用比喻，使内容具体化，让人能获得更具体更具象的信息。</p>]]></content>
       
       
       
-    </entry>
-    
-    
-    
-    <entry>
-      <title>远程桌面</title>
-      <link href="/2022/12/30/%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/"/>
-      <url>/2022/12/30/%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/</url>
-      
-        <content type="html"><![CDATA[<p>使用说明文字版（必看）：</p><ol><li>如何判断你的电脑是否支持？<br>如果你的电脑是Windows 10，请打开“Windows设置”-“系统”在左侧栏目中寻找是否有“远程桌面”选项，如果有则按视频教程中的方法配置，没有请在下面链接中下载配套程序或者升级到最新版本<br>如果你的电脑是其他版本的Windows，请在下面链接中下载配套程序，支持的Windows版本在下面（大部分都支持啦）</li><li>移动端程序下载<br>Windows平板：<a href="https://go.microsoft.com/fwlink/?LinkID=616709">https://go.microsoft.com/fwlink/?LinkID=616709</a><br>Android（安卓）：<a href="https://www.coolapk.com/apk/com.microsoft.rdc.android">https://www.coolapk.com/apk/com.microsoft.rdc.android</a><br>iOS（iPhone及iPad）：<a href="https://itunes.apple.com/us/app/microsoft-remote-desktop/id714464092?mt=8">https://itunes.apple.com/us/app/microsoft-remote-desktop/id714464092?mt=8</a><br>macOS：<a href="https://itunes.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12">https://itunes.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12</a></li><li>电脑端配置方法：</li></ol><ol><li>Windows 10 Fall Creator更新（1709）或更高版本 （即我说的RS4）<br>在要连接的设备上，选择“开始” ，然后单击左侧的“设置”图标。<br>选择“系统”组，然后选择“远程桌面”项。<br>点击选项卡启用远程桌面。<br>建议保持PC唤醒（就是不关机不睡眠）状态和可发现以便于连接。单击“显示设置”以启用。<br>根据需要，通过单击“可以远程访问此PC”的“选择用户”添加可以远程连接的用户。<br>管理员组的成员自动拥有访问权限。<br>在“如何连接到此PC”下记下此PC的名称，这样配置客户端的时候就能知道自己要连接的电脑的名字了。</li></ol>]]></content>
-      
-      
+        <tags>
+            
+            <tag> novel </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>博客中还需要添加的项目</title>
-      <link href="/2022/12/27/%E5%8D%9A%E5%AE%A2%E4%B8%AD%E8%BF%98%E9%9C%80%E8%A6%81%E6%B7%BB%E5%8A%A0%E7%9A%84%E9%A1%B9%E7%9B%AE/"/>
-      <url>/2022/12/27/%E5%8D%9A%E5%AE%A2%E4%B8%AD%E8%BF%98%E9%9C%80%E8%A6%81%E6%B7%BB%E5%8A%A0%E7%9A%84%E9%A1%B9%E7%9B%AE/</url>
+      <title>博客中计划添加的项目</title>
+      <link href="/2022/12/27/%E5%8D%9A%E5%AE%A2%E4%B8%AD%E8%AE%A1%E5%88%92%E6%B7%BB%E5%8A%A0%E7%9A%84%E9%A1%B9%E7%9B%AE/"/>
+      <url>/2022/12/27/%E5%8D%9A%E5%AE%A2%E4%B8%AD%E8%AE%A1%E5%88%92%E6%B7%BB%E5%8A%A0%E7%9A%84%E9%A1%B9%E7%9B%AE/</url>
       
         <content type="html"><![CDATA[<ol><li>微博热搜插件</li><li>地图插件</li><li></li></ol>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
       
     </entry>
     
@@ -70,64 +119,56 @@
     
     <entry>
       <title>hexo-plugin-charts</title>
-      <link href="/2022/12/27/%E5%B0%86%E5%8F%91%E5%B8%83%E6%97%A5%E5%8E%86%E6%B7%BB%E5%8A%A0%E5%88%B0%E6%9F%90%E4%B8%AA%E9%A1%B5%E9%9D%A2/"/>
-      <url>/2022/12/27/%E5%B0%86%E5%8F%91%E5%B8%83%E6%97%A5%E5%8E%86%E6%B7%BB%E5%8A%A0%E5%88%B0%E6%9F%90%E4%B8%AA%E9%A1%B5%E9%9D%A2/</url>
+      <link href="/2022/12/27/hexo-plugin-charts/"/>
+      <url>/2022/12/27/hexo-plugin-charts/</url>
       
         <content type="html"><![CDATA[<p><a href="https://guole.fun/posts/18158/">https://guole.fun/posts/18158/</a></p><ol><li>将发布日历添加到某个页面:<div id="posts-calendar" class="js-pjax"></div></li><li>将标签统计插入到某个页面：<!-- "data-length" = how many tags to show, default 10 --><div id="tags-chart" data-length="10" class="js-pjax"></div></li></ol>]]></content>
       
       
       
-    </entry>
-    
-    
-    
-    <entry>
-      <title>购买域名后做什么</title>
-      <link href="/2022/12/26/%E8%B4%AD%E4%B9%B0%E5%9F%9F%E5%90%8D%E5%90%8E%E5%81%9A%E4%BB%80%E4%B9%88/"/>
-      <url>/2022/12/26/%E8%B4%AD%E4%B9%B0%E5%9F%9F%E5%90%8D%E5%90%8E%E5%81%9A%E4%BB%80%E4%B9%88/</url>
-      
-        <content type="html"><![CDATA[<p>下一步，您可以：</p><ol><li>核对域名实名信息：登录 域名注册管理控制台，确认域名是否已经完成实名认证。 重要：域名注册成功后必须进行域名实名认证，否则域名会处于 ServerHold（暂停解析）状态，无法正常使用。</li><li>如您需要域名解析，请前往 解析控制台，添加域名及设置对应的解析记录。查看各记录类型的设置方法</li><li>域名注册成功后，如果您需要进行 网站建设和网站备案，请在域名实名认证通过 3个工作日 后提交至管局备案。 查看详情</li></ol>]]></content>
-      
-      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>代码演示</title>
-      <link href="/2022/12/23/%E4%BB%A3%E7%A0%81%E6%BC%94%E7%A4%BA/"/>
-      <url>/2022/12/23/%E4%BB%A3%E7%A0%81%E6%BC%94%E7%A4%BA/</url>
-      
-        <content type="html"><![CDATA[<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs JavaScript"><span class="hljs-keyword">function</span> <span class="hljs-title function_">a</span> () &#123;<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&quot;hello,world&quot;</span>)<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>hexo语法注意</title>
-      <link href="/2022/12/22/hexo%E8%AF%AD%E6%B3%95%E6%B3%A8%E6%84%8F/"/>
-      <url>/2022/12/22/hexo%E8%AF%AD%E6%B3%95%E6%B3%A8%E6%84%8F/</url>
+      <title>Hexo语法注意</title>
+      <link href="/2022/12/22/Hexo%E8%AF%AD%E6%B3%95%E6%B3%A8%E6%84%8F/"/>
+      <url>/2022/12/22/Hexo%E8%AF%AD%E6%B3%95%E6%B3%A8%E6%84%8F/</url>
       
         <content type="html"><![CDATA[<p>hexo常用命令<br> 发表于 2019-07-15 |  更新于 2019-07-16 |  分类于 tools |  阅读次数：<br> 本文字数： 535 |  阅读时长 ≈ 1 分钟<br>hexo 常用命令</p><p>hexo new “page name” 新建一个page</p><p>hexo g generate，生成静态文件</p><p>hexo s server，启动服务器</p><p>hexo d deploy，部署网站，相当于push静态文件到git上。</p><p>hexo clean 清除缓存文件和已生成的静态文件</p><p>hexo init [folder] 新建一个网站</p><p>hexo list <type> 列出网站资料，available types: page, post, route, tag, category</p><p>常见问题<br><code>Template render error FATAL Something&#39;s wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.html Template render error: (unknown path) [Line 62, Column 45]   parseAggregate: expected colon after dict key</code></p><p>文章中不能出现3个连续的{，可改成{ { {，中间加空格</p>]]></content>
       
       
       
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
     </entry>
     
     
     
     <entry>
-      <title>习思想课程学习心得</title>
-      <link href="/2022/12/22/%E4%B9%A0%E6%80%9D%E6%83%B3%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/"/>
-      <url>/2022/12/22/%E4%B9%A0%E6%80%9D%E6%83%B3%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</url>
+      <title>习思想课程作业</title>
+      <link href="/2022/12/22/%E4%B9%A0%E6%80%9D%E6%83%B3%E8%AF%BE%E7%A8%8B%E4%BD%9C%E4%B8%9A/"/>
+      <url>/2022/12/22/%E4%B9%A0%E6%80%9D%E6%83%B3%E8%AF%BE%E7%A8%8B%E4%BD%9C%E4%B8%9A/</url>
       
-        <content type="html"><![CDATA[<h2 id="关于本课程学习心得"><a href="#关于本课程学习心得" class="headerlink" title="关于本课程学习心得"></a>关于本课程学习心得</h2><p><em>光电2106班    U202114357   朱润灿</em></p><p>学习习思想已经有一个学期了，在这半年里，我在意识和思想方面收获了许多，可以清楚地感受到老师都在用心的授课，他们的思想真的是非常的精彩（相比于我对这门思想政治课程的预期）——应该不是偶然，学校相当重视这门课程，以至于配备了最好的师资力量，其中不乏院长级的老师。<br>习近平中国特色社会主义思想是历史发展和时代的产物，是新时代国家发展的现实需要，具有重大的理论和实践意义。在全面深入学习这一思想的过程中,我最大的收获便是这四个字——“深学笃用”,确保学到深处，干在实处。<br>首先，要坚持深学深思,深化对理论的理解。深学,就是要深入学，原原本本的学，要抓住重点，全面深入学习新思想的主要内容和精神要义。十九大召开之后，各级党组织和党员群众都开始投入到学习新思想的浪潮中，学习形式多样，包括团队宣讲、研讨、讲座、网上学习以及党内组织生活会和民主生活会等，虽然形式各种各样，但是在学习中我们只是了解内容大概，没有突出重点，也不交流互动，不能深入去学习和研究这一思想的精髓。新思想内容丰富，涵盖国家发展的各个方面，为强国建设提供了理论和实践指导，因此，我们要深入研究这一思想的深刻内涵,确保能准确领会该思想传达的精神和实质。<br>其次，要干在实处,做实干家。实干,就是要学以致用，把理论与实践相结合，在深入学的基础上，把所学用于具体社会实践中，不能浮于表面，只学不做。就是要自觉把新思想作为一切工作的行动指南,融入到日常工作当中，自觉践行。<br>在学习方面，我觉得关键是要运用好“四个去”的办法，这样才会好的收获和效果：<br><strong>1、学得进去。</strong>就是要保证我们能够真正融入到学习当中去。<br>　　首先是能够静下心来。平常大家都习惯于处理具体事务，很少去思考过这些具体事务背后的理论基础，从热运行转向冷思考有个过程，但一定要先让心静下来，心静才能静心学。<br>　　其次是制定好学习计划。学校虽然安排了教学计划，但我们一定要根据自身的实际，安排好个人的学习计划，比如读好书、写文章、谈体会等等，这是对学校教学计划的有益完善和补充，是更具个人特色的学习计划。这样才会达到学习知识、完善自我的目的。<br>　　其三是养成良好的习惯。要努力适应角色转变，把平常的组织者、宣传者变成当下的倾听者、思想家，完全把自己融入习近平新时代中国特色社会主义思想当中去，安排好作息时间，充分利用好时间，让学习成为一种习惯。<br>　　<strong>2、跳得出去。</strong>就是要能够把学到的理论联系工作的实际，不能就理论学理论。<br>　　一要学懂理论。理论来源于实践，但理论又是用来指导实践的。我们要系统的学习习近平新时代中国特色社会主义思想，特别是平常我们没有掌握，或者说是一知半解、似是而非的内容，我们更是要花精力把它学懂、学透。这是指导实践的基础。<br>　　二要联系实际。在工作中我们遇到一些棘手的问题，是怎样解决的，有的问题解决了，但自己没有搞得太明白，平常因为事务多没有用心去思考过。现在我们就有精力来思考，当时我们运用了什么样的理论，理论运用是否合理，是否存在问题或不足等等，要善于把学到的理论同我们平常工作中的实际结合起来。<br>　　三要善于运用。当我们把理论运用到实践中去了之后，要善于在实践中把理论同实际案例的运用进行归纳和总结，使理论的运用更有针对性、更有实用性、更有指导性。<br>　　<strong>3、深得下去。</strong>对于从事具体事务性工作的人来讲，学习纯理论较为枯燥。见子打子的多，讲实用主义的多，很容易出现对理论的把握，就是不深不透、一知半解。<br>　　要深得下去，一是要就习近平新时代中国特色社会主义思想进行梳理、思考，找出自身相关的了解、认识、理解和掌握存在的漏洞或不足，作为学习的重点。二是反复思考心中疑惑。要在学习的过程中将自身的疑惑作为问题提出，与领导、同事进行互动交流，特别是要善于把平常自身工作当中遇到问题时的疑惑结合起来，这样针对性就更强，理论学习的价值就会体现出来。<br>　　<strong>4、升得上去。</strong>学习过程中必须要学有所获，要能真正提高自身的理论水平和用理论解决问题的能力。要想把很多理论都系统的学习，进而提高，必须要善于抓纲、抓重点，提高归纳、概括的能力。要善于作读书笔记，善于把疑问带到课堂上，善于把模糊带到谈论中，善于把不解带到图书馆，坚持下去，我们就能在分析、解决问题的时候，自觉地运用理论，我们的理论水平就能得到较大的提高，真正达到用马克思主义理论来解决实际问题的目的。<br>作为一名新时代的大学生，我们唯有坚定理想信念，在思想上和行动上始终与党中央保持高度一致，不断提高自己的能力和本领，才能成为一名政治素质高、学术修养强的优秀学生。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="关于本课程学习心得"><a href="#关于本课程学习心得" class="headerlink" title="关于本课程学习心得"></a>关于本课程学习心得</h2><p><em>光电2106班    U202114357   朱润灿</em></p><p>学习习思想已经有一个学期了，在这半年里，我在意识和思想方面收获了许多，可以清楚地感受到老师都在用心的授课，他们的思想真的是非常的精彩（相比于我对这门思想政治课程的预期）——应该不是偶然，学校相当重视这门课程，以至于配备了最好的师资力量，其中不乏院长级的老师。<br>习近平中国特色社会主义思想是历史发展和时代的产物，是新时代国家发展的现实需要，具有重大的理论和实践意义。在全面深入学习这一思想的过程中,我最大的收获便是这四个字——“深学笃用”,确保学到深处，干在实处。<br>首先，要坚持深学深思,深化对理论的理解。深学,就是要深入学，原原本本的学，要抓住重点，全面深入学习新思想的主要内容和精神要义。十九大召开之后，各级党组织和党员群众都开始投入到学习新思想的浪潮中，学习形式多样，包括团队宣讲、研讨、讲座、网上学习以及党内组织生活会和民主生活会等，虽然形式各种各样，但是在学习中我们只是了解内容大概，没有突出重点，也不交流互动，不能深入去学习和研究这一思想的精髓。新思想内容丰富，涵盖国家发展的各个方面，为强国建设提供了理论和实践指导，因此，我们要深入研究这一思想的深刻内涵,确保能准确领会该思想传达的精神和实质。<br>其次，要干在实处,做实干家。实干,就是要学以致用，把理论与实践相结合，在深入学的基础上，把所学用于具体社会实践中，不能浮于表面，只学不做。就是要自觉把新思想作为一切工作的行动指南,融入到日常工作当中，自觉践行。<br>在学习方面，我觉得关键是要运用好“四个去”的办法，这样才会好的收获和效果：<br><strong>1、学得进去。</strong>就是要保证我们能够真正融入到学习当中去。<br>　　首先是能够静下心来。平常大家都习惯于处理具体事务，很少去思考过这些具体事务背后的理论基础，从热运行转向冷思考有个过程，但一定要先让心静下来，心静才能静心学。<br>　　其次是制定好学习计划。学校虽然安排了教学计划，但我们一定要根据自身的实际，安排好个人的学习计划，比如读好书、写文章、谈体会等等，这是对学校教学计划的有益完善和补充，是更具个人特色的学习计划。这样才会达到学习知识、完善自我的目的。<br>　　其三是养成良好的习惯。要努力适应角色转变，把平常的组织者、宣传者变成当下的倾听者、思想家，完全把自己融入习近平新时代中国特色社会主义思想当中去，安排好作息时间，充分利用好时间，让学习成为一种习惯。<br>　　<strong>2、跳得出去。</strong>就是要能够把学到的理论联系工作的实际，不能就理论学理论。<br>　　一要学懂理论。理论来源于实践，但理论又是用来指导实践的。我们要系统的学习习近平新时代中国特色社会主义思想，特别是平常我们没有掌握，或者说是一知半解、似是而非的内容，我们更是要花精力把它学懂、学透。这是指导实践的基础。<br>　　二要联系实际。在工作中我们遇到一些棘手的问题，是怎样解决的，有的问题解决了，但自己没有搞得太明白，平常因为事务多没有用心去思考过。现在我们就有精力来思考，当时我们运用了什么样的理论，理论运用是否合理，是否存在问题或不足等等，要善于把学到的理论同我们平常工作中的实际结合起来。<br>　　三要善于运用。当我们把理论运用到实践中去了之后，要善于在实践中把理论同实际案例的运用进行归纳和总结，使理论的运用更有针对性、更有实用性、更有指导性。<br>　　<strong>3、深得下去。</strong>对于从事具体事务性工作的人来讲，学习纯理论较为枯燥。见子打子的多，讲实用主义的多，很容易出现对理论的把握，就是不深不透、一知半解。<br>　　要深得下去，一是要就习近平新时代中国特色社会主义思想进行梳理、思考，找出自身相关的了解、认识、理解和掌握存在的漏洞或不足，作为学习的重点。二是反复思考心中疑惑。要在学习的过程中将自身的疑惑作为问题提出，与领导、同事进行互动交流，特别是要善于把平常自身工作当中遇到问题时的疑惑结合起来，这样针对性就更强，理论学习的价值就会体现出来。<br>　　<strong>4、升得上去。</strong>学习过程中必须要学有所获，要能真正提高自身的理论水平和用理论解决问题的能力。要想把很多理论都系统的学习，进而提高，必须要善于抓纲、抓重点，提高归纳、概括的能力。要善于作读书笔记，善于把疑问带到课堂上，善于把模糊带到谈论中，善于把不解带到图书馆，坚持下去，我们就能在分析、解决问题的时候，自觉地运用理论，我们的理论水平就能得到较大的提高，真正达到用马克思主义理论来解决实际问题的目的。<br>作为一名新时代的大学生，我们唯有坚定理想信念，在思想上和行动上始终与党中央保持高度一致，不断提高自己的能力和本领，才能成为一名政治素质高、学术修养强的优秀学生。</p><h2 id="习思想作业"><a href="#习思想作业" class="headerlink" title="习思想作业"></a>习思想作业</h2><hr><p><em>U202114357     电子信息类2106班    朱润灿</em></p><p>​       时下我国的腐败之风长期以来一直得不到有效的遏制，国人对此已是深恶痛绝，但又无可奈何！倘若此顽症一日不能从根本上得到有效的惩治，长此下去民心定然尽丧，国家根基不固必然召乱。</p><p>​       究竟<strong>怎样才能做到根治腐败</strong>呢？我认为：如果是真心诚意地要根治腐败，就必须象“关羽刮骨疗毒”一样痛下决心，标本兼治，才能起到良好成效。</p><ol><li><em><strong>首先</strong></em>，<em><strong>从建立健全法制入手，而且必须用重典，要让根治腐败深入人心，让官员”不敢腐“</strong></em>。公务员科级以上干部实行家庭财产公开制度（这个好像之前就提过好多次）；公款招待费进行设限，超标进行通报批评；如发现利用职务工作之便用钱买官跑官等腐败案例，从严从重处理；对公务员执行违法犯罪的实名举报奖励制度，并严格保密和绝对保护举报人的人身安全。</li><li><em><strong>其次，要通过主流媒体的舆论导向，在全社会大张旗鼓地刮起反腐台风</strong></em>。让所有社会成员都接受一次廉政教育的洗礼，尤其是让腐败分子心惊肉跳，真正形成过街老鼠，人人喊打的社会氛围和环境。</li><li><em><strong>最后</strong></em>，<em><strong>反腐败斗争既是一场突击战同时又是一场持久战</strong></em>。所谓突击战，就是要集中精力在一个规定的特定的时间内全力以赴地重点开展反腐败斗争；所谓持久战，就是虽然突击战取得了重要成果，但并不意味着所有腐败分子都已全部被清除干净，反腐斗争是长期的，要有持之以恒的长期准备，只要有腐败分子生长的土壤条件，那么反腐斗争也就必然是艰苦而长期的，这根弦一刻也不能松懈。</li></ol>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> learn </tag>
+            
+        </tags>
       
     </entry>
     
@@ -142,31 +183,30 @@
       
       
       
+        <tags>
+            
+            <tag> ai </tag>
+            
+        </tags>
+      
     </entry>
     
     
     
     <entry>
       <title>html语法</title>
-      <link href="/2022/12/22/html%E8%AF%AD%E6%B3%95/"/>
-      <url>/2022/12/22/html%E8%AF%AD%E6%B3%95/</url>
+      <link href="/2022/12/22/html%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
+      <url>/2022/12/22/html%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</url>
       
         <content type="html"><![CDATA[<blockquote><p>插入图片Markdown语法代码：<code>![图片alt](图片链接 &quot;图片title&quot;)</code>。</p></blockquote><blockquote><p>对应的HTML代码：<code>&lt;img src=&quot;图片链接&quot; alt=&quot;图片alt&quot; title=&quot;图片title&quot;&gt;</code></p></blockquote><h1>标题1</h1>              <h2>标题2</h2> <h3>标题3</h3> <h4>标题4</h4> <h5>标题5</h5> <h6>标题6</h6>  <!-- 注释语句 -->   ctrl + /       或者 ctrl +shift + /<p>  文本内容  </p><br /> 换行语法<div> 这是头部 </div>    <span>今日价格</span><img src="图像URL" />  插入图像<a href="跳转目标" target="目标窗口的弹出方式">文本或图像</a>   插入超链接4.2、锚点链接定位作用：点击链接，可以快速定位到页面中的某个位置创建锚点链接，用户能够快速定位到目标内容。创建锚点链接分为两步：在链接文本的href属性中，设置属性值为 #名字  <a href="#two">  找到目标位置标签，里面添加一个 id属性=刚才的名字  <h3 id="two">第2集</h3><table><thead><tr><th align="left">语义</th><th align="left">标签</th></tr></thead><tbody><tr><td align="left">加粗</td><td align="left"><code>&lt;strong&gt;&lt;/strong&gt;</code></td></tr><tr><td align="left">倾斜</td><td align="left"><code>&lt;em&gt;&lt;em&gt;</code></td></tr><tr><td align="left">删除线</td><td align="left"><code>&lt;del&gt;&lt;/del&gt;</code></td></tr><tr><td align="left">下划线</td><td align="left"><code>&lt;ins&gt;&lt;/ins&gt;</code></td></tr></tbody></table><table><thead><tr><th align="left">语义</th><th align="left">标签</th></tr></thead><tbody><tr><td align="left">加粗</td><td align="left"><code>&lt;strong&gt;&lt;/strong&gt;</code></td></tr><tr><td align="left">倾斜</td><td align="left"><code>&lt;em&gt;&lt;em&gt;</code></td></tr><tr><td align="left">删除线</td><td align="left"><code>&lt;del&gt;&lt;/del&gt;</code></td></tr><tr><td align="left">下划线</td><td align="left"><code>&lt;ins&gt;&lt;/ins&gt;</code></td></tr></tbody></table>]]></content>
       
       
       
-    </entry>
-    
-    
-    
-    <entry>
-      <title>习思想课后</title>
-      <link href="/2022/12/22/%E4%B9%A0%E6%80%9D%E6%83%B3%E8%AF%BE%E5%90%8E/"/>
-      <url>/2022/12/22/%E4%B9%A0%E6%80%9D%E6%83%B3%E8%AF%BE%E5%90%8E/</url>
-      
-        <content type="html"><![CDATA[<h2 id="习思想作业"><a href="#习思想作业" class="headerlink" title="习思想作业"></a>习思想作业</h2><hr><p><em>U202114357     电子信息类2106班    朱润灿</em></p><p>​       时下我国的腐败之风长期以来一直得不到有效的遏制，国人对此已是深恶痛绝，但又无可奈何！倘若此顽症一日不能从根本上得到有效的惩治，长此下去民心定然尽丧，国家根基不固必然召乱。</p><p>​       究竟<strong>怎样才能做到根治腐败</strong>呢？我认为：如果是真心诚意地要根治腐败，就必须象“关羽刮骨疗毒”一样痛下决心，标本兼治，才能起到良好成效。</p><ol><li><em><strong>首先</strong></em>，<em><strong>从建立健全法制入手，而且必须用重典，要让根治腐败深入人心，让官员”不敢腐“</strong></em>。公务员科级以上干部实行家庭财产公开制度（这个好像之前就提过好多次）；公款招待费进行设限，超标进行通报批评；如发现利用职务工作之便用钱买官跑官等腐败案例，从严从重处理；对公务员执行违法犯罪的实名举报奖励制度，并严格保密和绝对保护举报人的人身安全。</li><li><em><strong>其次，要通过主流媒体的舆论导向，在全社会大张旗鼓地刮起反腐台风</strong></em>。让所有社会成员都接受一次廉政教育的洗礼，尤其是让腐败分子心惊肉跳，真正形成过街老鼠，人人喊打的社会氛围和环境。</li><li><em><strong>最后</strong></em>，<em><strong>反腐败斗争既是一场突击战同时又是一场持久战</strong></em>。所谓突击战，就是要集中精力在一个规定的特定的时间内全力以赴地重点开展反腐败斗争；所谓持久战，就是虽然突击战取得了重要成果，但并不意味着所有腐败分子都已全部被清除干净，反腐斗争是长期的，要有持之以恒的长期准备，只要有腐败分子生长的土壤条件，那么反腐斗争也就必然是艰苦而长期的，这根弦一刻也不能松懈。</li></ol>]]></content>
-      
-      
+        <tags>
+            
+            <tag> up </tag>
+            
+        </tags>
       
     </entry>
     
@@ -174,12 +214,18 @@
     
     <entry>
       <title>matlab(信号系统)</title>
-      <link href="/2022/12/22/matlab-%E4%BF%A1%E5%8F%B7%E7%B3%BB%E7%BB%9F/"/>
-      <url>/2022/12/22/matlab-%E4%BF%A1%E5%8F%B7%E7%B3%BB%E7%BB%9F/</url>
+      <link href="/2022/12/22/matlab-%E4%BF%A1%E5%8F%B7%E7%B3%BB%E7%BB%9F%E5%9F%BA%E6%9C%AC%E4%BB%A3%E7%A0%81/"/>
+      <url>/2022/12/22/matlab-%E4%BF%A1%E5%8F%B7%E7%B3%BB%E7%BB%9F%E5%9F%BA%E6%9C%AC%E4%BB%A3%E7%A0%81/</url>
       
         <content type="html"><![CDATA[<h2 id="matlab-信号系统"><a href="#matlab-信号系统" class="headerlink" title="matlab(信号系统)"></a>matlab(信号系统)</h2><h3 id="matlab的微分"><a href="#matlab的微分" class="headerlink" title="matlab的微分"></a>matlab的微分</h3><p>matlab中的求微分格式为diff(f(x)) </p><h4 id="plot中的矢量长度必须相同（很重要）"><a href="#plot中的矢量长度必须相同（很重要）" class="headerlink" title="plot中的矢量长度必须相同（很重要）"></a>plot中的矢量长度必须相同（很重要）</h4><p>解决方法：利用length和linspace函数对原来的自变量长度进行进行变换</p><h4 id="关于matlab绘图的一些美化"><a href="#关于matlab绘图的一些美化" class="headerlink" title="关于matlab绘图的一些美化"></a>关于matlab绘图的一些美化</h4><ol><li><p>在绘图时，我们使用了Matlab默认的参数，在菜单栏用‘另存为’功能将图保存为PNG格式的图片，相当于对屏幕进行硬拷贝。这张图的质量比较差：一、图像的<strong>分辨率很低</strong>，只有560x420像素；二、<strong>文字太小</strong>，看不清楚，Matlab默认的文字大小为10px；三、<strong>坐标轴和曲线比较细</strong>，整个图看上去相当单薄。好在Matlab提供了灵活、简便的方法，可修改图中各种参数的数值。</p><p>通过**set(gca, ‘fontsize’, 14);**，将坐标轴标签的字符大小从8px增加到14px；</p><p>通过**set(gca, ‘XMinorTick’, ‘on’);**等，设置X和Y轴的副标记（MinorTick）；</p><p>通过**set(gca, ‘XGrid’, ‘on’);**等，显示坐标网格；</p><p>通过**set(gca, ‘LineWidth’, 1.5);**，将坐标轴的线宽由0.5px增加到1.5px；</p><p>通过设置’FontSize’，将标题的字符大小由10px增加到20px；</p><p>在plot时，通过设置’LineWidth‘，将线宽由0.5px增加到1.5px。</p></li><li><p>关于plot()</p><p>plot(x,y)画图</p><p>‘LineWidth’，线条宽度，最小是1</p><p>‘color’，线条颜色，同上</p><p>‘LineSpec’，这里直接表示线的形状，不用写’LineSpec’ </p><p> ‘MarkerSize’、’MarkerEdgeColor’、 ‘MarkerFaceColor’：如果线形使用Marker，可以调节大小、边界颜色、内部颜色</p><p>例如，</p><blockquote><p>x=0:1/pi:2*pi;</p></blockquote><blockquote><p>y=sin(x);</p></blockquote><blockquote><p>plot(x,y,’–bo’,’LineWidth’,2,’color’,’blue’,’MarkerSize’,10,’MarkerEdgeColor’,’black’,’MarkerFaceColor’,’red’)</p></blockquote><p>表示画一条如下图所示的正弦函数，’–bo’表示虚线、蓝色、采样点用圆圈标出。线形和点形以及颜色可以自由组合。</p><p>关于图注、图例、坐标轴、字体大小</p><p>命名横纵坐标</p><p>a=xlabel(‘Name of x axis’);b=ylabel(‘Name of y axis’);</p><p>设置标题</p><p>c=title(‘contents of your title’);</p><p>设置图例</p><p>d=legend(‘y1’,’y2’);</p><p>设置上述内容的位置、字体大小、粗细</p><p>set(a,’unit’,’normalized’,’Position’,[x,y],’FontSize’,number_fontsize,’FontName’,name_of_font_style)</p><p>set(a,’unit’,’normalized’,’Position’,[x,y,width,height],’FontSize’,number_fontsize,’FontName’,name_of_font_style,’LineWidth’,number_linewidth); </p><ol start="3"><li><p>修饰代码</p><p><code>subplot(2,2,2) plot(t,f2) title(&#39;f2(t)&#39;) xlabel(&#39;t&#39;) ylabel(&#39;f2(t)&#39;) </code></p></li></ol></li></ol><h4 id="自创函数实现离散数列卷积"><a href="#自创函数实现离散数列卷积" class="headerlink" title="自创函数实现离散数列卷积"></a>自创函数实现离散数列卷积</h4><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs ruby">function [ny,y]=myconv(nx,x,nh,h) <span class="hljs-comment">#定义一个myconv的函数来实现离散序列的卷积</span><br>  <br>  nyl=nx(<span class="hljs-number">1</span>)+nh(<span class="hljs-number">1</span>);  <span class="hljs-comment">#y的位置向量ny第一项的求法</span><br>  nyh=nx(<span class="hljs-keyword">end</span>)+nh(<span class="hljs-keyword">end</span>); <span class="hljs-comment">#y的位置向量ny最后一项的求法</span><br>  ny=<span class="hljs-symbol">nyl:</span>nyh; <span class="hljs-comment">#ny的范围</span><br>  d=<span class="hljs-number">1</span>;<br>  y=x(<span class="hljs-number">1</span>)*h;    <span class="hljs-comment">#x的第一项与h的每一项相乘</span><br>  a=length(x);  <br> <br>  <span class="hljs-keyword">for</span> i=<span class="hljs-number">1</span><span class="hljs-symbol">:a</span>  <span class="hljs-comment">#for循环实现了从x(2)--&gt;x(end)每一项与h(n)的相乘后之和</span><br>    d=d+<span class="hljs-number">1</span>;<br>    A=x(d)*h;<br>      <br>    <span class="hljs-keyword">for</span> c=<span class="hljs-number">1</span><span class="hljs-symbol">:</span>(d-<span class="hljs-number">1</span>)<span class="hljs-comment">#此处for循环实现了让A列数增加d-1列，和我们数学公式中的两项多位相乘后错位排列进行相加的功能。</span><br>    A=[<span class="hljs-number">0</span>,A];<br>    <span class="hljs-keyword">end</span><br>    <br>    y=[y,<span class="hljs-number">0</span>]; <span class="hljs-comment">#矩阵相加只能同维度。为了使y与A同维度，方便相加</span><br>    y=y+A;<br>   <br>    <span class="hljs-keyword">if</span>(d==a)  <span class="hljs-comment">#当d=a时，跳出循环，不再进行。避免了在A处的索引超出x的维度</span><br>        <span class="hljs-keyword">break</span>;<br>    <span class="hljs-keyword">end</span><br>  <span class="hljs-keyword">end</span><br><span class="hljs-keyword">end</span><br></code></pre></td></tr></table></figure><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><code class="hljs ruby">&gt;&gt;nx=-<span class="hljs-number">2</span><span class="hljs-symbol">:</span><span class="hljs-number">2</span>;<br><span class="hljs-meta prompt_">&gt;&gt;</span> x=[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>];<br>&gt;&gt; nh=-<span class="hljs-number">3</span><span class="hljs-symbol">:</span><span class="hljs-number">4</span>;<br>&gt;&gt; h=[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>,<span class="hljs-number">7</span>,<span class="hljs-number">8</span>];<br>&gt;&gt; nyl=nx(<span class="hljs-number">1</span>)+nh(<span class="hljs-number">1</span>);<br>&gt;&gt; nyh=nx(<span class="hljs-keyword">end</span>)+nh(<span class="hljs-keyword">end</span>);<br>&gt;&gt; ny=<span class="hljs-symbol">nyl:</span>nyh;<br>&gt;&gt; y=conv(x,h)<br><br>y =<br><br>     <span class="hljs-number">1</span>     <span class="hljs-number">4</span>    <span class="hljs-number">10</span>    <span class="hljs-number">20</span>    <span class="hljs-number">35</span>    <span class="hljs-number">50</span>    <span class="hljs-number">65</span>    <span class="hljs-number">80</span>    <span class="hljs-number">86</span>    <span class="hljs-number">82</span>    <span class="hljs-number">67</span>    <span class="hljs-number">40</span><br><br><span class="hljs-meta prompt_">&gt;&gt;</span> subplot(<span class="hljs-number">3</span>,<span class="hljs-number">1</span>,<span class="hljs-number">1</span>);<br>&gt;&gt; stem(ny,y);<br>&gt;&gt; title(string(<span class="hljs-string">&#x27;y(n)&#x27;</span>))<br><span class="hljs-meta prompt_">&gt;&gt;</span> subplot(<span class="hljs-number">3</span>,<span class="hljs-number">1</span>,<span class="hljs-number">2</span>);<br>&gt;&gt; stem(nx,x);<br>&gt;&gt; title(<span class="hljs-string">&#x27;x(n)&#x27;</span>)<br><span class="hljs-meta prompt_">&gt;&gt;</span> subplot(<span class="hljs-number">3</span>,<span class="hljs-number">1</span>,<span class="hljs-number">3</span>);<br>&gt;&gt; stem(nh,h);<br>&gt;&gt; title(<span class="hljs-string">&#x27;h(n)&#x27;</span>)<br></code></pre></td></tr></table></figure><h4 id="一些函数的运用"><a href="#一些函数的运用" class="headerlink" title="一些函数的运用"></a>一些函数的运用</h4><p><strong>linspace</strong>是Matlab中的均分计算指令，用于产生x1,x2之间的N点行线性的矢量。y = linspace(x1,x2,n) 生成 n 个点。这些点的间距为 (x2-x1)/(n-1)。</p><p><strong>subplot</strong>是 MATLAB 中的 函数 ，是将多个图画到一个平面上的工具。 在matlab的命令窗口中输入doc subplot或者help subplot即可获得该函数的帮助信息。 subplot是 MATLAB 中的函数。 使用方法：subplot（m,n,p）或者subplot（m n p）。</p><p><strong>dirac</strong>（）函数，用于δ函数的表示。</p><p><strong>heaviside</strong>()函数，用于阶跃函数的表示。</p><p>function C=<strong>convNew</strong>(A,B) </p><p> C=zeros(1,length(A)+length(B)-1);<br> i=1:length(A);<br>C=C+[zeros(1,i-1),A(i)*B,zeros(1,length(A)-i)];<br>end</p><p>单位脉冲impseq(n0,n1,n2)；<br>M文件如下：<br>function x=impseq(n0,n1,n2)<br>n=n1:n2;<br>x=[(n-n0)==0];其中n0为delta=1处横坐标。</p><p>阶跃脉冲stepseq(n0,n1,n2)；<br>M文件如下：<br>function [x,n]=stepseq(n0,n1,n2)<br>n=n1:n2;<br>x=[(n-n0)&gt;=0];</p><p><strong>傅里叶变换绘图</strong></p><p>ft=sym(‘exp(-2*(t-1))*heaviside(t-1)’);<br>Fw=fourier(ft);<br>subplot(211),ezplot(abs(Fw)),grid on,title(‘幅度谱’)<br>phase=atan(imag(Fw)/real(Fw));<br>subplot(212),ezplot(phase);grid on,title(‘相位谱’)</p><p>ft=sym(‘exp(-2*abs(t-1))’);<br>Fw=fourier(ft);<br>subplot(211),ezplot(abs(Fw)),grid on,title(‘幅度谱’)<br>phase=atan(imag(Fw)/real(Fw));<br>subplot(212),ezplot(phase);grid on,title(‘相位谱’)    </p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> learn </tag>
+            
+        </tags>
       
     </entry>
     
@@ -187,38 +233,37 @@
     
     <entry>
       <title>网站推荐</title>
-      <link href="/2022/12/22/%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/"/>
-      <url>/2022/12/22/%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/</url>
+      <link href="/2022/12/22/%E6%89%BE%E8%B5%84%E6%BA%90%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/"/>
+      <url>/2022/12/22/%E6%89%BE%E8%B5%84%E6%BA%90%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/</url>
       
         <content type="html"><![CDATA[<h1 id="【网站推荐】"><a href="#【网站推荐】" class="headerlink" title="【网站推荐】"></a>【网站推荐】</h1><p><img src="https://mmbiz.qpic.cn/mmbiz_gif/ibuvhMP7V60Y9oAo33LvFcz8PJ6e0wFwALNILGztTxXuB6MDQHzib4ALKR9Alrpo9JPWmg0hSVQZ67y8HXTc5TbQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1" alt="图片"></p><p><strong>万人迷吧—优质云盘资源导航站</strong></p><p><a href="https://wanrenmi8.com/cn/index.html">https://wanrenmi8.com/cn/index.html</a></p><p><strong>首推！</strong></p><p>没错，这个是一个导航网站</p><p>里面整合了很多云盘搜索网站</p><p>比如我们下面提到的“千帆搜索”</p><p>十分推荐大家将其加入标签栏</p><p>无论你是需要影视、电子书、课程还是软件</p><p>都可以尽情搜索</p><p>举个例子</p><p>我们点击“<strong>1PB阿里云盘资源文档</strong>”</p><p>你就会进入一个共享文档中</p><p>包含经典影视、资源合集等各种资源。</p><p>这下大家知道这里的资源有多丰富了吧</p><p>评价：如果你喜欢这个网站，那么接下来的内容可以不用看了，这就是导航网站的魅力！</p><p><strong>Meow.TG—做最懂你的TG搜索</strong></p><p><a href="https://meow.tg/">https://meow.tg/</a></p><p>TG喵是一个基于telegram频道的资源搜索引擎</p><p>立志为用户提供</p><p>简洁顺畅的Telegram资源搜索体验</p><p>作为一个颜值党</p><p>搜索引擎的前端页面也采取了</p><p>一个简洁可爱风的设计</p><p>外加上作者是一个猫奴</p><p>整个网站便以可爱的猫咪为主题来设计了</p><p>评价：</p><p>网站左侧导航栏链接测试时网站刚被攻击</p><p>左侧导航栏不可使用</p><p>修复之后依然推荐该网站</p><p><strong>千帆搜索</strong></p><p><a href="https://tg.qianfan.app/">https://tg.qianfan.app/</a></p><p>坚持做最好用的TG (Telegram)资源搜索引擎</p><p>服务你我他，深藏功与名！</p><p><strong>UP云搜</strong></p><p><a href="https://www.upyunso.com/">https://www.upyunso.com/</a></p><p>最新、最全的阿里云盘资源</p><p>上一个网站，虽然资源丰富</p><p>但是界面很复杂</p><p>喜欢小清新的可以进这个网站</p><p>他主推的有：</p><p>考研、四六级、漫画、教程等等</p><p><strong>易搜</strong></p><p><a href="https://yiso.fun/#">https://yiso.fun/#</a></p><p>阿里、百度、夸克、迅雷资源</p><p>这个是一款新开发的网站，第一版发布的时间是2022年7月15日。</p><p>主要内容：</p><p>基础的搜索服务，阿里云盘、夸克网盘的搜索，用户提交自己的链接系统自动收录，热搜榜单等。</p><p>网站还在不断更新，这类网站有个好处</p><p>就是资源很新</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/ibuvhMP7V60Y9oAo33LvFcz8PJ6e0wFwAgsaFpa67aRbV4IKTHPDBCEQ6HTfLxNwWhUx8Kh95TQyAEFckbL06NA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p><strong>小纸条</strong></p><p><a href="https://u.gitcafe.net/">https://u.gitcafe.net/</a></p><p>网站特色：</p><p>设计了资源导航栏、置顶推荐和最近更新</p><p>网站资源的分类十分清楚</p><p>操作也很简单，点击导航栏会自动定位资源位置</p><p>点击资源链接即可进入阿里云盘资源目录</p><p>直接下载即可</p><p><strong>哺狸盘搜</strong></p><p><a href="https://www.alipansou.com/">https://www.alipansou.com/</a></p><p>外观同样简介，快速导航目录展示着电影、电视剧、小说等等。</p><p>表明他是一个以影视资源为主的搜索引擎。</p><p>评价：</p><p>影视资源丰富，但部分资源需要收费。</p><p><strong>找资源</strong></p><p><a href="https://box.misiai.com/#/">https://box.misiai.com/#/</a></p><p>阿里云盘资源搜索站</p>]]></content>
       
       
       
-    </entry>
-    
-    
-    
-    <entry>
-      <title>专业分流的一些信息</title>
-      <link href="/2022/12/22/%E5%88%86%E6%B5%81%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BF%A1%E6%81%AF/"/>
-      <url>/2022/12/22/%E5%88%86%E6%B5%81%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BF%A1%E6%81%AF/</url>
-      
-        <content type="html"><![CDATA[<h3 id="专业分流的一些信息"><a href="#专业分流的一些信息" class="headerlink" title="专业分流的一些信息"></a>专业分流的一些信息</h3><p><img src="C:\Users\朱润灿\AppData\Roaming\Typora\typora-user-images\image-20221127183910015.png" alt="image-20221127183910015"></p><p><img src="C:\Users\朱润灿\AppData\Roaming\Typora\typora-user-images\image-20221127183928978.png" alt="image-20221127183928978"></p>]]></content>
-      
-      
+        <tags>
+            
+            <tag> box </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>blog搭建注意点</title>
-      <link href="/2022/12/16/2022-12-16-blog%E6%90%AD%E5%BB%BA%E6%B3%A8%E6%84%8F%E7%82%B9/"/>
-      <url>/2022/12/16/2022-12-16-blog%E6%90%AD%E5%BB%BA%E6%B3%A8%E6%84%8F%E7%82%B9/</url>
+      <title>blog搭建随手记（一）</title>
+      <link href="/2022/12/16/2022-12-16-blog%E6%90%AD%E5%BB%BA%E9%9A%8F%E6%89%8B%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+      <url>/2022/12/16/2022-12-16-blog%E6%90%AD%E5%BB%BA%E9%9A%8F%E6%89%8B%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/</url>
       
         <content type="html"><![CDATA[<h2 id="随手记"><a href="#随手记" class="headerlink" title="随手记"></a>随手记</h2><ol><li><p>HTML   CSS   Java Script</p></li><li><p>md编辑器：Typora;代码编辑器：nopad++,<strong>VSCode</strong>,Webstrom。(不推荐使用记事本)</p></li><li><p>环境搭建：git–版本控制工具；Node–javascript运行环境；<strong>npm</strong>,cnpm,yarn–包管理工具</p></li><li><p>-g (global)    config–配置（文件）</p></li><li><p>熟悉一些Git命令：</p><h4 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h4><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs crmsh">git init --初始化一个git仓库<br>git <span class="hljs-keyword">clone</span> <span class="hljs-title">--克隆（copy</span>）一个git仓库<br>git <span class="hljs-keyword">clone</span> <span class="hljs-title">git</span>@github.com/XXXX/XXXX.git         --SSH协议（最常用的是 ssh，因为速度较快，还可以配置公钥免输入密码）<br>git <span class="hljs-keyword">clone</span> <span class="hljs-title">git</span>://github.com/schacon/grit.git          --GIT协议<br>git <span class="hljs-keyword">clone</span> <span class="hljs-title">https</span>://github.com/schacon/grit.git      --HTTPS协议<br></code></pre></td></tr></table></figure><h4 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h4><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs routeros">git<span class="hljs-built_in"> config </span> 配置用户名和邮箱地址<br>git<span class="hljs-built_in"> config </span>--global user.name <span class="hljs-string">&#x27;你的用户名&#x27;</span><br>git<span class="hljs-built_in"> config </span>--global user.email <span class="hljs-string">&#x27;你的邮箱&#x27;</span><br>git <span class="hljs-built_in">add</span> .  将文件添加到缓存中<br>git <span class="hljs-built_in">add</span> *.java<br>git status 查看相关文件的状态<br>git commit 将缓存区内容添加到仓库中，可以在后面加-m选项，以在命令行中提供提交注释<br>git commit -m <span class="hljs-string">&quot;第一次版本提交&quot;</span><br>git commit -am <span class="hljs-string">&quot;第一次版本提交&quot;</span>    想跳过add这一步，可以直接使用 -a选项<br></code></pre></td></tr></table></figure><h4 id="远程仓库"><a href="#远程仓库" class="headerlink" title="远程仓库"></a>远程仓库</h4><p>前面我们使用到的 Git 命令都是在本地执行，如果你想通过 Git 分享你的代码或者与其他开发人员合作。 你就需要将数据放到一台其他开发人员能够连接的服务器上。一般将使用 Github 作为远程仓库，来介绍Git 远程仓库的使用。远程仓库常用的几种指令：</p><p>git remote add：添加远程仓库到本地<br>git remote：查看当前的远程仓库<br>git fetch、git pull：提取远程仓仓库<br>git push：推送到远程仓库<br>git remote rm：删除远程仓库</p><figure class="highlight inform7"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs inform7">git remote add <span class="hljs-comment">[alias]</span> <span class="hljs-comment">[url]</span><br>git pull <span class="hljs-comment">[options]</span> <span class="hljs-comment">[&lt;repository&gt; <span class="hljs-comment">[&lt;refspec&gt;…]</span>]</span><br>git push <span class="hljs-comment">[alias]</span> <span class="hljs-comment">[branch]</span>     git push 推送你的新分支与数据到某个远端仓库命令<br><br></code></pre></td></tr></table></figure></li></ol><ol start="6"><li><p>hexo命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs Hexo">hexo cl<br>hexo g   重新生成一下文件，因为我问用的是静态文件，如果有改动的话还是使用一下这个命令<br>hexo s   本地预览，s-server<br>hexo d   上传至github，d-deploy部署<br>hexo n &quot;title&quot;   新建一篇文章n-new<br>hexo new page tags/categories/link<br></code></pre></td></tr></table></figure></li><li><p>Visual Studio Code可以按<strong>ctrl+f</strong>搜索本页，按<strong>ctrl+shift+f</strong>全局搜索</p></li><li><p>通过git进行代码的版本控制</p></li></ol><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs armasm"><span class="hljs-symbol">echo</span> <span class="hljs-string">&quot;# blog-code&quot;</span> &gt;&gt; README.md<br><span class="hljs-symbol">git</span> init<br><span class="hljs-symbol">git</span> <span class="hljs-keyword">add</span> README.md<br><span class="hljs-symbol">git</span> commit -m <span class="hljs-string">&quot;first commit&quot;</span><br><span class="hljs-symbol">git</span> branch -M main<br><span class="hljs-symbol">git</span> remote <span class="hljs-keyword">add</span> origin https:<span class="hljs-comment">//github.com/28742/blog-code.git</span><br><span class="hljs-symbol">git</span> <span class="hljs-keyword">push</span> -u origin main<br></code></pre></td></tr></table></figure><ol start="9"><li>“type”只有当配置标签，分类，链接时才必要配置，其余时候只有”title”和”date”两项必要配置<br>可以直接使用命令：<figure class="highlight excel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs excel">hexo <span class="hljs-built_in">n</span> <span class="hljs-string">&quot;title&quot;</span><br></code></pre></td></tr></table></figure></li><li><code>hello,world!</code>与</li></ol>   <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">hello,world！<br></code></pre></td></tr></table></figure><ol start="11"><li>  怎样的到图片链接？<br>  软件介绍：<br>uTools Win/macOS 中文版 (强大的插件工具集合)由佛系软件foxirj.com整理发布。uTools 是一个极简、插件化的现代桌面软件，通过自由选配丰富的插件，打造得心应手的工具集合。通过快捷键<strong>默认 alt + space</strong>就可以快速呼出这个搜索框。你可以往输入框内粘贴文本、图片、截图、文件、文件夹等等，能够处理此内容的插件也早已准备就绪，统一的设计风格和操作方式，助你高效的得到结果。一旦你熟悉它后，能够为你节约大量时间，即用即走、不中断、无干扰，让你可以更加专注地改变世界。</li></ol><p>   自动识别<br>   uTools支持多种输入源呼出插件，例如：字符输入、文件拖拽、截图粘贴，亦能够自动识别输入内容进入相应插件，如json、时间戳、base64等。</p><p>   数据同步<br>   uTools各插件产生的数据将保存到本地数据库中。为了便于在不同设备之间共享数据，或是预防重装系统造成数据丢失，我们提供云端数据备份同步服务，登录后可一键开启。</p><p>   高度自由<br>   uTools 一切皆插件的设计，可以允许你高度自由的定义自己的开发工具，现在你也可以扩展第三方插件或者开发属于自己的插件。<br>   <code>alt + space</code>接着搜索“占位图”即可<br>12.<br>   如主题作者 Jerry 所说，最好在 Hexo 的根目录创建一个文件_config.butterfly.yml，并把主题目录的_config.yml 内容复制到_config.butterfly.yml 里，以后只需要在_config.butterfly.yml 进行配置。Hexo 会自动合并主题中的_config.yml 和_config.butterfly.yml 里的配置，如果存在同名配置，会使用_config.butterfly.yml 的配置，其优先度较高。<br>13.<br>   建议在 blog/source/ 下创建诸如 img/css/js 等文件夹，存放文章或网站用的素材，分门别类后续也方便维护，这是个好习惯。<br>   Hexo 打包的时候，会自动把 /source/ 下的文件，包含到网站静态文件中去。<br>14.<br>   Butterfly 在 H1~H6 样式上使用了 fontawesome.com 上的图标，引用的是 Unicode 形式。可自行查找合适的。<br>   <img src="https://files.catbox.moe/appwit.png"><br>15.<br>   想要在首页置顶某篇文章，只需在文章头部信息添加以下内容：<br>   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs markdown">sticky: 1<br></code></pre></td></tr></table></figure><br>16.<br>   blog美化教程：<a href="https://guole.fun/posts/butterfly-custom/">https://guole.fun/posts/butterfly-custom/</a></p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> up </tag>
+            
+        </tags>
       
     </entry>
     
@@ -229,9 +274,15 @@
       <link href="/2022/12/15/MD%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/"/>
       <url>/2022/12/15/MD%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/</url>
       
-        <content type="html"><![CDATA[<h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2><blockquote><p>微信公众号排版工具。</p></blockquote><p>建议使用 <strong>Chrome</strong> 浏览器，体验最佳效果。</p><p>使用微信公众号编辑器有一个十分头疼的问题：粘贴出来的代码，格式错乱，空间小还带行号，而且特别丑。Markdown.com.cn编辑器能够解决这个问题。</p><p>Markdown是一种轻量级的「标记语言」。</p><p>请阅读下方文本熟悉工具使用方法</p><h2 id="1-Markdown-com-cn-简介"><a href="#1-Markdown-com-cn-简介" class="headerlink" title="1 Markdown.com.cn 简介"></a>1 Markdown.com.cn 简介</h2><ul><li>支持自定义样式的 Markdown 编辑器</li></ul><h2 id="2-Markdown语法教程"><a href="#2-Markdown语法教程" class="headerlink" title="2 Markdown语法教程"></a>2 Markdown语法教程</h2><h3 id="2-1-标题"><a href="#2-1-标题" class="headerlink" title="2.1 标题"></a>2.1 标题</h3><p>不同数量的<code>#</code>可以完成不同的标题，如下：</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h3 id="2-2-字体"><a href="#2-2-字体" class="headerlink" title="2.2 字体"></a>2.2 字体</h3><p>粗体、斜体、粗体和斜体，删除线，需要在文字前后加不同的标记符号。如下：</p><p><strong>这个是粗体</strong></p><p><em>这个是斜体</em></p><p><em><strong>这个是粗体加斜体</strong></em></p><p><del>这里想用删除线</del></p><p>注：如果想给字体换颜色、字体或者居中显示，需要使用内嵌HTML来实现。</p><h3 id="2-3-无序列表"><a href="#2-3-无序列表" class="headerlink" title="2.3 无序列表"></a>2.3 无序列表</h3><p>无序列表的使用，在符号<code>-</code>后加空格使用。如下：</p><ul><li>无序列表 1</li><li>无序列表 2</li><li>无序列表 3</li></ul><p>如果要控制列表的层级，则需要在符号<code>-</code>前使用空格。如下：</p><ul><li>无序列表 1</li><li>无序列表 2<ul><li>无序列表 2.1</li><li>无序列表 2.2</li></ul></li></ul><h3 id="2-4-有序列表"><a href="#2-4-有序列表" class="headerlink" title="2.4 有序列表"></a>2.4 有序列表</h3><p>有序列表的使用，在数字及符号<code>.</code>后加空格后输入内容，如下：</p><ol><li>有序列表 1</li><li>有序列表 2</li><li>有序列表 3</li></ol><h3 id="2-5-引用"><a href="#2-5-引用" class="headerlink" title="2.5 引用"></a>2.5 引用</h3><p>引用的格式是在符号<code>&gt;</code>后面书写文字。如下：</p><blockquote><p>读一本好书，就是在和高尚的人谈话。 ——歌德</p></blockquote><blockquote><p>雇用制度对工人不利，但工人根本无力摆脱这个制度。 ——阮一峰</p></blockquote><h3 id="2-7-链接"><a href="#2-7-链接" class="headerlink" title="2.7 链接"></a>2.7 链接</h3><p>微信公众号仅支持公众号文章链接，即域名为<code>https://mp.weixin.qq.com/</code>的合法链接。使用方法如下所示：</p><p>对于该论述，欢迎读者查阅之前发过的文章，<a href="https://mp.weixin.qq.com/s/s5IhxV2ooX3JN_X416nidA">你是《未来世界的幸存者》么？</a><br><a id="jump_8"></a></p><h3 id="2-8-图片"><a href="#2-8-图片" class="headerlink" title="2.8 图片"></a>2.8 图片</h3><p>插入图片，格式如下：</p><p><img src="https://www.nginx.cn/wp-content/uploads/2020/03/qrcode_for_gh_82cf87d482f0_258.jpg" alt="这里写图片描述"></p><p>支持 jpg、png、gif等图片格式，</p><p>注：支持图片 <em><strong>拖拽和截图粘贴</strong></em> 到编辑器中，仅支持 https 的图片，图片粘贴到微信时会自动上传微信服务器。</p><h3 id="2-9-分割线"><a href="#2-9-分割线" class="headerlink" title="2.9 分割线"></a>2.9 分割线</h3><p>可以在一行中用三个以上的减号来建立一个分隔线，同时需要在分隔线的上面空一行。如下：</p><hr><h3 id="2-10-表格"><a href="#2-10-表格" class="headerlink" title="2.10 表格"></a>2.10 表格</h3><p>可以使用冒号来定义表格的对齐方式，如下：</p><table><thead><tr><th align="left">姓名</th><th align="center">年龄</th><th align="right">工作</th></tr></thead><tbody><tr><td align="left">小可爱</td><td align="center">18</td><td align="right">吃可爱多</td></tr><tr><td align="left">小小勇敢</td><td align="center">20</td><td align="right">爬棵勇敢树</td></tr><tr><td align="left">小小小机智</td><td align="center">22</td><td align="right">看一本机智书</td></tr></tbody></table><h2 id="3-特殊语法"><a href="#3-特殊语法" class="headerlink" title="3. 特殊语法"></a>3. 特殊语法</h2><h3 id="3-1-脚注"><a href="#3-1-脚注" class="headerlink" title="3.1 脚注"></a>3.1 脚注</h3><blockquote><p>支持平台：微信公众号、知乎。</p></blockquote><p>脚注与链接的区别如下所示：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs markdown">链接：[<span class="hljs-string">文字</span>](<span class="hljs-link">链接</span>)<br>脚注：[<span class="hljs-string">文字</span>](<span class="hljs-link">脚注解释 &quot;脚注名字&quot;</span>)<br></code></pre></td></tr></table></figure><p>有人认为在<a href="https://en.wikipedia.org/wiki/Front-end_web_development" title="Front-end web development">大前端时代</a>的背景下，移动端开发（Android、IOS）将逐步退出历史舞台。</p><p><a href="%E6%98%AF%E6%8C%87%E6%8E%8C%E6%8F%A1%E5%A4%9A%E7%A7%8D%E6%8A%80%E8%83%BD%EF%BC%8C%E5%B9%B6%E8%83%BD%E5%88%A9%E7%94%A8%E5%A4%9A%E7%A7%8D%E6%8A%80%E8%83%BD%E7%8B%AC%E7%AB%8B%E5%AE%8C%E6%88%90%E4%BA%A7%E5%93%81%E7%9A%84%E4%BA%BA%E3%80%82" title="什么是全栈工程师">全栈工程师</a>在业务开发流程中起到了至关重要的作用。</p><p>脚注内容请拉到最下面观看。</p><h3 id="3-2-代码块"><a href="#3-2-代码块" class="headerlink" title="3.2 代码块"></a>3.2 代码块</h3><blockquote><p>支持平台：微信代码主题仅支持微信公众号！其他主题无限制。</p></blockquote><p>如果在一个行内需要引用代码，只要用反引号引起来就好，如下：</p><p>Use the <code>printf()</code> function.</p><p>在需要高亮的代码块的前一行及后一行使用三个反引号，同时<strong>第一行反引号后面表示代码块所使用的语言</strong>，如下：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">// FileName: HelloWorld.java</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">HelloWorld</span> &#123;<br>  <span class="hljs-comment">// Java 入口程序，程序从此入口</span><br>  <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> &#123;<br>    System.out.println(<span class="hljs-string">&quot;Hello,World!&quot;</span>); <span class="hljs-comment">// 向控制台打印一条语句</span><br>  &#125;<br>&#125;<br></code></pre></td></tr></table></figure><p>支持以下语言种类：</p><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs vim">bash<br>clojure，cpp，<span class="hljs-keyword">cs</span>，css<br>dart，dockerfile, diff<br>erlang<br><span class="hljs-keyword">go</span>，gradle，groovy<br>haskell<br>java，javascript，json，julia<br>kotlin<br>lisp，<span class="hljs-keyword">lua</span><br>makefile，markdown，matlab<br>objectivec<br><span class="hljs-keyword">perl</span>，php，<span class="hljs-keyword">python</span><br>r，<span class="hljs-keyword">ruby</span>，rust<br>scala，<span class="hljs-keyword">shell</span>，sql，swift<br>tex，typescript<br>verilog，vhdl<br>xml<br>yaml<br></code></pre></td></tr></table></figure><p>如果想要更换代码高亮样式，可在上方<strong>代码主题</strong>中挑选。</p><p>其中<strong>微信代码主题与微信官方一致</strong>，有以下注意事项：</p><ul><li>带行号且不换行，代码大小与官方一致</li><li>需要在代码块处标志语言，否则无法高亮</li><li>粘贴到公众号后，用鼠标点代码块内外一次，完成高亮</li></ul><p>diff 不能同时和其他语言的高亮同时显示，且需要调整代码主题为微信代码主题以外的代码主题才能看到 diff 效果，使用效果如下:</p><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs diff"><span class="hljs-addition">+ 新增项</span><br><span class="hljs-deletion">- 删除项</span><br></code></pre></td></tr></table></figure><p><strong>其他主题不带行号，可自定义是否换行，代码大小与当前编辑器一致</strong></p><h3 id="3-3-数学公式"><a href="#3-3-数学公式" class="headerlink" title="3.3 数学公式"></a>3.3 数学公式</h3><blockquote><p>支持平台：微信公众号、知乎。</p></blockquote><p>行内公式使用方法，比如这个化学公式：$\ce{Hg^2+ -&gt;[I-] HgI2 -&gt;[I-] [Hg^{II}I4]^2-}$</p><p>块公式使用方法如下：</p><p>$$H(D_2) = -\left(\frac{2}{4}\log_2 \frac{2}{4} + \frac{2}{4}\log_2 \frac{2}{4}\right) = 1$$</p><p>矩阵：</p><p>$$<br>  \begin{pmatrix}<br>  1 &amp; a_1 &amp; a_1^2 &amp; \cdots &amp; a_1^n \<br>  1 &amp; a_2 &amp; a_2^2 &amp; \cdots &amp; a_2^n \<br>  \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \<br>  1 &amp; a_m &amp; a_m^2 &amp; \cdots &amp; a_m^n \<br>  \end{pmatrix}<br>$$</p><p>公式由于微信不支持，目前的解决方案是转成 svg 放到微信中，无需调整，矢量不失真。</p><p>目前测试如果公式量过大，在 Chrome 下会存在粘贴后无响应，但是在 Firefox 中始终能够成功。</p><h3 id="3-4-TOC"><a href="#3-4-TOC" class="headerlink" title="3.4 TOC"></a>3.4 TOC</h3><blockquote><p>支持平台：微信公众号、知乎。</p></blockquote><p>TOC 全称为 Table of Content，列出全部标题。</p><p>[TOC]</p><p>由于微信只支持到二级列表，本工具仅支持二级标题和三级标题的显示。</p><h3 id="3-5-注音符号"><a href="#3-5-注音符号" class="headerlink" title="3.5 注音符号"></a>3.5 注音符号</h3><blockquote><p>支持平台：微信公众号。</p></blockquote><p>支持注音符号，用法如下：</p><p>Markdown Nice 这么好用，简直是{喜大普奔|hē hē hē hē}呀！</p><h3 id="3-6-横屏滑动幻灯片"><a href="#3-6-横屏滑动幻灯片" class="headerlink" title="3.6 横屏滑动幻灯片"></a>3.6 横屏滑动幻灯片</h3><blockquote><p>支持平台：微信公众号。</p></blockquote><p>通过<code>&lt;![](url),![](url)&gt;</code>这种语法设置横屏滑动滑动片，具体用法如下：</p><p>&lt;<img src="https://markdown.com.cn/images/blue.jpg" alt="蓝1">,<img src="https://markdown.com.cn/images/green.jpg" alt="绿2">,<img src="https://markdown.com.cn.jpg/" alt="红3">&gt;</p><h2 id="4-其他语法"><a href="#4-其他语法" class="headerlink" title="4 其他语法"></a>4 其他语法</h2><h3 id="4-1-HTML"><a href="#4-1-HTML" class="headerlink" title="4.1 HTML"></a>4.1 HTML</h3><p>支持原生 HTML 语法，请写内联样式，如下：</p><p><span style="display:block;text-align:right;color:orangered;">橙色居右</span><br><span style="display:block;text-align:center;color:orangered;">橙色居中</span></p><h3 id="4-2-UML"><a href="#4-2-UML" class="headerlink" title="4.2 UML"></a>4.2 UML</h3><p>不支持，推荐使用开源工具<code>https://draw.io/</code>制作后再导入图片</p><h2 id="5-致谢"><a href="#5-致谢" class="headerlink" title="5 致谢"></a>5 致谢</h2><ul><li>歌词经理 <a href="https://github.com/lyricat/wechat-format" title="灵感来源">wechat-fromat</a></li><li>颜家大少 <a href="http://md.aclickall.com/" title="MdA2All">MD2All</a></li></ul><blockquote><p>其他示例：</p></blockquote><h1 id="Google"><a href="#Google" class="headerlink" title="Google"></a>Google</h1><h2 id="Google-1"><a href="#Google-1" class="headerlink" title="Google"></a>Google</h2><h3 id="Google-2"><a href="#Google-2" class="headerlink" title="Google"></a>Google</h3><p>This is the first line.  </p><p>And the next line.</p><p>I <strong>love</strong> you.  </p><p>I <em>love</em> you.  </p><p>I <em><strong>love</strong></em> you.  </p><blockquote><p>Don’t worry me！</p></blockquote><ol><li>first thing</li><li>second thing</li><li>third thing</li></ol><ul><li>first thing</li><li>second thing</li><li>third thing</li></ul><p>use <code>code</code> in your markdown <code>file</code></p><hr><p><a href="http://wsxk.hust.edu.cn/" title="系统">网上选课系统</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2><blockquote><p>微信公众号排版工具。</p></blockquote><p>建议使用 <strong>Chrome</strong> 浏览器，体验最佳效果。</p><p>使用微信公众号编辑器有一个十分头疼的问题：粘贴出来的代码，格式错乱，空间小还带行号，而且特别丑。Markdown.com.cn编辑器能够解决这个问题。</p><p>Markdown是一种轻量级的「标记语言」。</p><p>请阅读下方文本熟悉工具使用方法</p><h2 id="1-Markdown-com-cn-简介"><a href="#1-Markdown-com-cn-简介" class="headerlink" title="1 Markdown.com.cn 简介"></a>1 Markdown.com.cn 简介</h2><ul><li>支持自定义样式的 Markdown 编辑器</li></ul><h2 id="2-Markdown语法教程"><a href="#2-Markdown语法教程" class="headerlink" title="2 Markdown语法教程"></a>2 Markdown语法教程</h2><h3 id="2-1-标题"><a href="#2-1-标题" class="headerlink" title="2.1 标题"></a>2.1 标题</h3><p>不同数量的<code>#</code>可以完成不同的标题，如下：</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h3 id="2-2-字体"><a href="#2-2-字体" class="headerlink" title="2.2 字体"></a>2.2 字体</h3><p>粗体、斜体、粗体和斜体，删除线，需要在文字前后加不同的标记符号。如下：</p><p><strong>这个是粗体</strong></p><p><em>这个是斜体</em></p><p><em><strong>这个是粗体加斜体</strong></em></p><p><del>这里想用删除线</del></p><p>注：如果想给字体换颜色、字体或者居中显示，需要使用内嵌HTML来实现。</p><h3 id="2-3-无序列表"><a href="#2-3-无序列表" class="headerlink" title="2.3 无序列表"></a>2.3 无序列表</h3><p>无序列表的使用，在符号<code>-</code>后加空格使用。如下：</p><ul><li>无序列表 1</li><li>无序列表 2</li><li>无序列表 3</li></ul><p>如果要控制列表的层级，则需要在符号<code>-</code>前使用空格。如下：</p><ul><li>无序列表 1</li><li>无序列表 2<ul><li>无序列表 2.1</li><li>无序列表 2.2</li></ul></li></ul><h3 id="2-4-有序列表"><a href="#2-4-有序列表" class="headerlink" title="2.4 有序列表"></a>2.4 有序列表</h3><p>有序列表的使用，在数字及符号<code>.</code>后加空格后输入内容，如下：</p><ol><li>有序列表 1</li><li>有序列表 2</li><li>有序列表 3</li></ol><h3 id="2-5-引用"><a href="#2-5-引用" class="headerlink" title="2.5 引用"></a>2.5 引用</h3><p>引用的格式是在符号<code>&gt;</code>后面书写文字。如下：</p><blockquote><p>读一本好书，就是在和高尚的人谈话。 ——歌德</p></blockquote><blockquote><p>雇用制度对工人不利，但工人根本无力摆脱这个制度。 ——阮一峰</p></blockquote><h3 id="2-7-链接"><a href="#2-7-链接" class="headerlink" title="2.7 链接"></a>2.7 链接</h3><p>微信公众号仅支持公众号文章链接，即域名为<code>https://mp.weixin.qq.com/</code>的合法链接。使用方法如下所示：</p><p>对于该论述，欢迎读者查阅之前发过的文章，<a href="https://mp.weixin.qq.com/s/s5IhxV2ooX3JN_X416nidA">你是《未来世界的幸存者》么？</a><br><a id="jump_8"></a></p><h3 id="2-8-图片"><a href="#2-8-图片" class="headerlink" title="2.8 图片"></a>2.8 图片</h3><p>插入图片，格式如下：</p><p><img src="https://www.nginx.cn/wp-content/uploads/2020/03/qrcode_for_gh_82cf87d482f0_258.jpg" alt="这里写图片描述"></p><p>支持 jpg、png、gif等图片格式，</p><p>注：支持图片 <em><strong>拖拽和截图粘贴</strong></em> 到编辑器中，仅支持 https 的图片，图片粘贴到微信时会自动上传微信服务器。</p><h3 id="2-9-分割线"><a href="#2-9-分割线" class="headerlink" title="2.9 分割线"></a>2.9 分割线</h3><p>可以在一行中用三个以上的减号来建立一个分隔线，同时需要在分隔线的上面空一行。如下：</p><hr><h3 id="2-10-表格"><a href="#2-10-表格" class="headerlink" title="2.10 表格"></a>2.10 表格</h3><p>可以使用冒号来定义表格的对齐方式，如下：</p><table><thead><tr><th align="left">姓名</th><th align="center">年龄</th><th align="right">工作</th></tr></thead><tbody><tr><td align="left">小可爱</td><td align="center">18</td><td align="right">吃可爱多</td></tr><tr><td align="left">小小勇敢</td><td align="center">20</td><td align="right">爬棵勇敢树</td></tr><tr><td align="left">小小小机智</td><td align="center">22</td><td align="right">看一本机智书</td></tr></tbody></table><h2 id="3-特殊语法"><a href="#3-特殊语法" class="headerlink" title="3. 特殊语法"></a>3. 特殊语法</h2><h3 id="3-1-脚注"><a href="#3-1-脚注" class="headerlink" title="3.1 脚注"></a>3.1 脚注</h3><blockquote><p>支持平台：微信公众号、知乎。</p></blockquote><p>脚注与链接的区别如下所示：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs markdown">链接：[<span class="hljs-string">文字</span>](<span class="hljs-link">链接</span>)<br>脚注：[<span class="hljs-string">文字</span>](<span class="hljs-link">脚注解释 &quot;脚注名字&quot;</span>)<br></code></pre></td></tr></table></figure><p>有人认为在<a href="https://en.wikipedia.org/wiki/Front-end_web_development" title="Front-end web development">大前端时代</a>的背景下，移动端开发（Android、IOS）将逐步退出历史舞台。</p><p><a href="%E6%98%AF%E6%8C%87%E6%8E%8C%E6%8F%A1%E5%A4%9A%E7%A7%8D%E6%8A%80%E8%83%BD%EF%BC%8C%E5%B9%B6%E8%83%BD%E5%88%A9%E7%94%A8%E5%A4%9A%E7%A7%8D%E6%8A%80%E8%83%BD%E7%8B%AC%E7%AB%8B%E5%AE%8C%E6%88%90%E4%BA%A7%E5%93%81%E7%9A%84%E4%BA%BA%E3%80%82" title="什么是全栈工程师">全栈工程师</a>在业务开发流程中起到了至关重要的作用。</p><p>脚注内容请拉到最下面观看。</p><h3 id="3-2-代码块"><a href="#3-2-代码块" class="headerlink" title="3.2 代码块"></a>3.2 代码块</h3><blockquote><p>支持平台：微信代码主题仅支持微信公众号！其他主题无限制。</p></blockquote><p>如果在一个行内需要引用代码，只要用反引号引起来就好，如下：</p><p>Use the <code>printf()</code> function.</p><p>在需要高亮的代码块的前一行及后一行使用三个反引号，同时<strong>第一行反引号后面表示代码块所使用的语言</strong>，如下：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">// FileName: HelloWorld.java</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">HelloWorld</span> &#123;<br>  <span class="hljs-comment">// Java 入口程序，程序从此入口</span><br>  <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> &#123;<br>    System.out.println(<span class="hljs-string">&quot;Hello,World!&quot;</span>); <span class="hljs-comment">// 向控制台打印一条语句</span><br>  &#125;<br>&#125;<br></code></pre></td></tr></table></figure><p>支持以下语言种类：</p><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs vim">bash<br>clojure，cpp，<span class="hljs-keyword">cs</span>，css<br>dart，dockerfile, diff<br>erlang<br><span class="hljs-keyword">go</span>，gradle，groovy<br>haskell<br>java，javascript，json，julia<br>kotlin<br>lisp，<span class="hljs-keyword">lua</span><br>makefile，markdown，matlab<br>objectivec<br><span class="hljs-keyword">perl</span>，php，<span class="hljs-keyword">python</span><br>r，<span class="hljs-keyword">ruby</span>，rust<br>scala，<span class="hljs-keyword">shell</span>，sql，swift<br>tex，typescript<br>verilog，vhdl<br>xml<br>yaml<br></code></pre></td></tr></table></figure><p>如果想要更换代码高亮样式，可在上方<strong>代码主题</strong>中挑选。</p><p>其中<strong>微信代码主题与微信官方一致</strong>，有以下注意事项：</p><ul><li>带行号且不换行，代码大小与官方一致</li><li>需要在代码块处标志语言，否则无法高亮</li><li>粘贴到公众号后，用鼠标点代码块内外一次，完成高亮</li></ul><p>diff 不能同时和其他语言的高亮同时显示，且需要调整代码主题为微信代码主题以外的代码主题才能看到 diff 效果，使用效果如下:</p><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs diff"><span class="hljs-addition">+ 新增项</span><br><span class="hljs-deletion">- 删除项</span><br></code></pre></td></tr></table></figure><p><strong>其他主题不带行号，可自定义是否换行，代码大小与当前编辑器一致</strong></p><h3 id="3-3-数学公式"><a href="#3-3-数学公式" class="headerlink" title="3.3 数学公式"></a>3.3 数学公式</h3><blockquote><p>支持平台：微信公众号、知乎。</p></blockquote><p>行内公式使用方法，比如这个化学公式：$\ce{Hg^2+ -&gt;[I-] HgI2 -&gt;[I-] [Hg^{II}I4]^2-}$</p><p>块公式使用方法如下：</p><p>$$H(D_2) = -\left(\frac{2}{4}\log_2 \frac{2}{4} + \frac{2}{4}\log_2 \frac{2}{4}\right) = 1$$</p><p>矩阵：</p><p>$$<br>  \begin{pmatrix}<br>  1 &amp; a_1 &amp; a_1^2 &amp; \cdots &amp; a_1^n \<br>  1 &amp; a_2 &amp; a_2^2 &amp; \cdots &amp; a_2^n \<br>  \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \<br>  1 &amp; a_m &amp; a_m^2 &amp; \cdots &amp; a_m^n \<br>  \end{pmatrix}<br>$$</p><p>公式由于微信不支持，目前的解决方案是转成 svg 放到微信中，无需调整，矢量不失真。</p><p>目前测试如果公式量过大，在 Chrome 下会存在粘贴后无响应，但是在 Firefox 中始终能够成功。</p><h3 id="3-4-TOC"><a href="#3-4-TOC" class="headerlink" title="3.4 TOC"></a>3.4 TOC</h3><blockquote><p>支持平台：微信公众号、知乎。</p></blockquote><p>TOC 全称为 Table of Content，列出全部标题。</p><p>[TOC]</p><p>由于微信只支持到二级列表，本工具仅支持二级标题和三级标题的显示。</p><h3 id="3-5-注音符号"><a href="#3-5-注音符号" class="headerlink" title="3.5 注音符号"></a>3.5 注音符号</h3><blockquote><p>支持平台：微信公众号。</p></blockquote><p>支持注音符号，用法如下：</p><p>Markdown Nice 这么好用，简直是{喜大普奔|hē hē hē hē}呀！</p><h3 id="3-6-横屏滑动幻灯片"><a href="#3-6-横屏滑动幻灯片" class="headerlink" title="3.6 横屏滑动幻灯片"></a>3.6 横屏滑动幻灯片</h3><blockquote><p>支持平台：微信公众号。</p></blockquote><p>通过<code>&lt;![](url),![](url)&gt;</code>这种语法设置横屏滑动滑动片，具体用法如下：</p><p>&lt;<img src="https://markdown.com.cn/images/blue.jpg" alt="蓝1">,<img src="https://markdown.com.cn/images/green.jpg" alt="绿2">,<img src="https://markdown.com.cn.jpg/" alt="红3">&gt;</p><h2 id="4-其他语法"><a href="#4-其他语法" class="headerlink" title="4 其他语法"></a>4 其他语法</h2><h3 id="4-1-HTML"><a href="#4-1-HTML" class="headerlink" title="4.1 HTML"></a>4.1 HTML</h3><p>支持原生 HTML 语法，请写内联样式，如下：</p><p><span style="display:block;text-align:right;color:orangered;">橙色居右</span><br><span style="display:block;text-align:center;color:orangered;">橙色居中</span></p><h3 id="4-2-UML"><a href="#4-2-UML" class="headerlink" title="4.2 UML"></a>4.2 UML</h3><p>不支持，推荐使用开源工具<code>https://draw.io/</code>制作后再导入图片</p><h2 id="5-致谢"><a href="#5-致谢" class="headerlink" title="5 致谢"></a>5 致谢</h2><ul><li>歌词经理 <a href="https://github.com/lyricat/wechat-format" title="灵感来源">wechat-fromat</a></li><li>颜家大少 <a href="http://md.aclickall.com/" title="MdA2All">MD2All</a></li></ul><blockquote><p>其他示例：</p></blockquote><h1 id="Google"><a href="#Google" class="headerlink" title="Google"></a>Google</h1><h2 id="Google-1"><a href="#Google-1" class="headerlink" title="Google"></a>Google</h2><h3 id="Google-2"><a href="#Google-2" class="headerlink" title="Google"></a>Google</h3><p>This is the first line.  </p><p>And the next line.</p><p>I <strong>love</strong> you.  </p><p>I <em>love</em> you.  </p><p>I <em><strong>love</strong></em> you.  </p><blockquote><p>Don’t worry me！</p></blockquote><ol><li>first thing</li><li>second thing</li><li>third thing</li></ol><ul><li>first thing</li><li>second thing</li><li>third thing</li></ul><p>use <code>code</code> in your markdown <code>file</code></p><hr><p><a href="http://wsxk.hust.edu.cn/" title="系统">网上选课系统</a></p><h3 id="代码演示"><a href="#代码演示" class="headerlink" title="代码演示"></a>代码演示</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs JavaScript"><span class="hljs-keyword">function</span> <span class="hljs-title function_">a</span> () &#123;<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&quot;hello,world&quot;</span>)<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> up </tag>
+            
+        </tags>
       
     </entry>
     
@@ -246,39 +297,6 @@
       <url>/about/index.html</url>
       
         <content type="html"><![CDATA[<h2 id="神奇の沟通"><a href="#神奇の沟通" class="headerlink" title="神奇の沟通"></a>神奇の沟通</h2><ul><li>沟通是<font color=red> <strong>传递</strong></font> 沟通是<font color=red> <strong>交流</strong></font></li><li>沟通是<font color=red> <strong>分享</strong></font> 沟通是<font color=red> <strong>智慧</strong></font></li><li>沟通是<font color=red> <strong>友谊</strong></font> 沟通是<font color=red> <strong>力量</strong></font></li></ul><p>“ <strong><font color=chocolate>认识自我、超越自我</font></strong> “ 是沟通的最高境界</p><ul><li>当你在项目中感觉所要学习的人和事越来越多时，说明你在 <strong><font color=chocolate>成长</font></strong> 。</li><li>当你感觉要责怪的人和事越来越少时，说明你在 <strong><font color=chocolate>成熟</font></strong> 。</li><li>当你在项目中不断获得了友谊和朋友时，说明你将取得项目的 <strong><font color=chocolate>成功</font></strong> 。</li></ul><h2 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h2><p>github：<a href="https://28742.github.com/">https://chocolate.blog.csdn.net/</a>（CSDN认证博客专家）</p><p>微信公众号：飘飘何所似</p><p>尽可能多会一点东西吧</p><p>座右铭：学如逆水行舟，不进则退</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>番剧列表</title>
-      <link href="/bangumis/index.html"/>
-      <url>/bangumis/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>书单</title>
-      <link href="/books/index.html"/>
-      <url>/books/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>相册集</title>
-      <link href="/gallery/index.html"/>
-      <url>/gallery/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="justified-gallery"><p><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/013.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/023.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/033.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/003.webp"></p>          </div>]]></content>
       
     </entry>
     
@@ -318,9 +336,31 @@
     
     
     <entry>
+      <title>相册集</title>
+      <link href="/gallery/index.html"/>
+      <url>/gallery/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/013.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/023.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/033.webp"><br><img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io/img/Butterfly/003.webp"></p>          </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>电影</title>
       <link href="/movies/index.html"/>
       <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>番剧列表</title>
+      <link href="/bangumis/index.html"/>
+      <url>/bangumis/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -365,6 +405,17 @@
       <title>说说</title>
       <link href="/talk/index.html"/>
       <url>/talk/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>书单</title>
+      <link href="/books/index.html"/>
+      <url>/books/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
